@@ -1,0 +1,16 @@
+URxvt*scrollTtyKeypress: true
+URxvt*scrollBar: false
+URxvt*perl-ext:
+URxvt*perl-ext-common: default,matcher,tabbedex
+URxvt.font: xft:sourcecodepro:size=10
+URxvt.shading: 30
+URxvt.transparent: true
+
+
+# Tabbedex
+
+URxvt.keysym.Control-Shift-R: perl:tabbedex:rename_tab
+URxvt.keysym.Control-T: perl:tabbedex:new_tab
+URxvt.keysym.Control-Right: perl:tabbedex:next_tab
+URxvt.keysym.Control-Left: perl:tabbedex:prev_tab
+

@@ -1,0 +1,60 @@
+# Firefox
+super + m
+  firefox-developer-edition
+
+# Terminal
+super + Return
+  urxvt
+
+# Program launcher
+super + space
+  dmenu_run
+
+# Reload
+super + Escape
+  pkill -USR1 -x sxhkd
+
+# Quit bspwm
+super + alt + Escape
+  bspc quit
+
+# Edit this file
+super + alt + c
+ urxvt -e  nano ~/.config/sxhkd/sxhkdrc
+
+# Edit bspwmrc
+super + alt + shift + c
+ urxvt -e nano ~/.config/bspwm/bspwmrc
+
+# Close window
+super + w
+  bspc node -{c,k}
+
+# Kill window
+super + shift + w
+  bspc node -k
+
+# Move to another desktop
+super + {Left,Right}
+  bspc node -d {^1,^2}
+
+# expand a window by moving one of its side outward
+alt + {Left, Right, Up, Down}
+  bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
+
+# contract a window by moving one of its side inward
+shift + alt + {Left, Right, Up, Down}
+  bspc node -z {right -20 0,left 20 0,top 0 20,bottom 0 -20}
+
+# focus another window
+ctrl + {Left, Right, Up, Down}
+  bspc node -s {west,east,north,south}
+
+# take screenshot and save to clipboard
+Print
+  gm import root ~/Pictures/screenshots/screenshot-temp.png && xclip -i < ~/Pictures/screenshots/screenshot-temp.png -t image/png -selection clipboard
+
+# Refresh Urxvt
+super + alt + u
+  xrdb ~/.Xresources && wal -R
+
