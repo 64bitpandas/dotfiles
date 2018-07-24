@@ -12,6 +12,7 @@ For best results, use Arch Linux! :)
 ### Package Lists
 
 **List of common dependencies**
+ - openbox-patched
  - firefox-developer-edition
  - feh
  - pywal
