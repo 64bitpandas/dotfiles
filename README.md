@@ -1,20 +1,31 @@
-# dbqeo's dotfiles
+# dbqeo's dotfiles: Openbox-OSX Branch
 
 For best results, use Arch Linux! :)
+
+Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which contains a config for the Openbox desktop environment inspired by Mac OS X.
+
+![Screenshot Coming Soon!]()
+
+### Recommended Configuration
+ - OpenBox DE
+ - Anarchy Linux (Arch distro)
+ - Desktop PC (Laptop support is incomplete)
 
 ### How to Install
  1. Clone the repository. `git clone https://github.com/dbqeo/dotfiles`
  2. Run a `cp -r` to copy `.config` to `~/` and `lightdm` to `/etc/`
- 3. Don't forget the `.Xresources` if you're in BSPWM or `.bashrc` if you're in Openbox!
+ 3. Don't forget the `.bashrc`! (Copy these to the user directory)
  4. Install all the packages in the lists below.
- 5. Enjoy the beautiful desktop :D
+ 5. If you're upgrading from Windows, make sure you fix your clock using `date +%T -s "HH:MM:SS"`
+ 6. Configure CUPS printers.
+ 7. Configure Ibus languages (if applicable).
+ 8. Add `nospectre_v2 rcu-nocbs=0-7` to boot if on a r3 2200g or r5 2400g.
+ 9. Enjoy the beautiful desktop :D
  
 ### Package Lists
 
-**List of common dependencies**
- - openbox-patched
+**Required packages**
  - firefox-developer-edition
- - feh
  - pywal
  - lightdm
  - lightdm-webkit2-greeter
@@ -23,6 +34,9 @@ For best results, use Arch Linux! :)
  - paper-icon-theme
  - git
  - python-pip
+ - openbox-patched
+ - io.elementary.terminal (pantheon-terminal)
+ - San Francisco font (grab from your nearest Mac)
  
 **Nice to have**
  - discord
@@ -36,29 +50,17 @@ For best results, use Arch Linux! :)
  - shutter
  - neovim
  - grub-customizer
- 
-My dotfiles currently work with two desktop environments:
+ - gimp
+ - cups
+ - xflux-gui-git
+ - wine + Microsoft Office
+ - steam
+ - rclone
 
-### 1. BSPWM
-![BSPWM Screenshot](https://media.discordapp.net/attachments/466471869957013504/467825472558858250/unknown.png?width=749&height=468)
+View other branches: 
+ - [BSPWM](https://github.com/dbqeo/dotfiles/tree/bspwm)
+ - [OpenBox](https://github.com/dbqeo/dotfiles/tree/openbox)
 
-**List of BSPWM dependencies:**
- - xclip
- - sxhkd
- - urxvt
- - graphicsmagick
- - polybar
- - dmenu
- - io.elementary.files (pantheon-files)
-
-### 2. OpenBox
-
-![OpenBox Screenshot](https://media.discordapp.net/attachments/354464445914808322/469593604961206272/unknown.png?width=749&height=468)
-
-**List of OpenBox dependencies:**
- - adobe-source-code-pro-fonts
- - adobe-source-sans-pro-fonts
- - io.elementary.terminal (pantheon-terminal)
 
 ### Coming soon (?)
  - Elementary OS / Ubuntu / Xubuntu dotfiles
