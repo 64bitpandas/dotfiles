@@ -4,7 +4,7 @@ For best results, use Arch Linux! :)
 
 Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which contains a config for the Openbox desktop environment inspired by Mac OS X.
 
-![Screenshot Coming Soon!]()
+![Screenshot](https://github.com/dbqeo/dotfiles/images/screenshot.png)
 
 ### Recommended Configuration
  - OpenBox DE
