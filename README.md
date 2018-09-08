@@ -20,7 +20,11 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
  6. Configure CUPS printers.
  7. Configure Ibus languages (if applicable).
  8. Add `nospectre_v2 rcu-nocbs=0-7` to boot if on a r3 2200g or r5 2400g.
- 9. Enjoy the beautiful desktop :D
+ 9. Move `Arc Dark OSX Buttons` in the Themes/ folder to `/usr/share/themes` and select it using lxappearance or a similar tool.
+ 10. Set the background and color scheme using `wal -i /path/to/dotfiles/images/mojave.jpg`
+ 11. Move `Gimp-Arc-Dark-Theme` in the Themes/ folder to `/usr/share/gimp/2.0/themes`
+ 12. Don't forget themes for Firefox, VSCode, etc.
+ 13. Enjoy the beautiful desktop :D
  
 ### Package Lists
 
@@ -40,7 +44,7 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
  - io.elementary.terminal (pantheon-terminal)
  - San Francisco font (grab from your nearest Mac)
  - macos-icon-theme
- - [High Sierra Theme](https://github.com/B00merang-Project/macOS) (Included in .themes folder)
+ - Arc Dark with OSX Buttons (included)
  - [Mojave and High Sierra Plank Themes](https://www.gnome-look.org/p/1248226/) Install to /usr/share/plank/themes
  
 **Nice to have**

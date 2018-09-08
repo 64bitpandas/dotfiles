@@ -18,7 +18,7 @@
 thunar --daemon &
 xfce4-panel &
 plank &
-# xfdesktop &
+xfdesktop &
 xcompmgr &
 opensnap &
 xscreensaver -no-splash &
