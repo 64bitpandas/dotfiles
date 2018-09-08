@@ -26,17 +26,22 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
 
 **Required packages**
  - firefox-developer-edition
- - pywal
+ - python-pip
+ - imagemagick
+ - pywal (pip3 install pywal)
  - lightdm
  - lightdm-webkit2-greeter
  - lightdm-webkit-theme-litarvan
  - numix-gtk-theme
  - paper-icon-theme
  - git
- - python-pip
+ - plank
  - openbox-patched
  - io.elementary.terminal (pantheon-terminal)
  - San Francisco font (grab from your nearest Mac)
+ - macos-icon-theme
+ - [High Sierra Theme](https://github.com/B00merang-Project/macOS) (Included in .themes folder)
+ - [Mojave and High Sierra Plank Themes](https://www.gnome-look.org/p/1248226/) Install to /usr/share/plank/themes
  
 **Nice to have**
  - discord
@@ -57,9 +62,30 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
  - steam
  - rclone
 
-View other branches: 
- - [BSPWM](https://github.com/dbqeo/dotfiles/tree/bspwm)
- - [OpenBox](https://github.com/dbqeo/dotfiles/tree/openbox)
+### Keyboard Shortcuts
+
+|  **Desktops and Windows**   	|                    	|
+|-------------------------	|--------------------	|
+| Ctrl+Alt+<Left/Right>   	|  Switch to Desktop 	|
+|  Shift+Alt+<Left/Right> 	|  Send to Desktop   	|
+| Super+D                 	| Toggle Desktop     	|
+|  Alt+F4 or Super+Q      	| Close              	|
+| Alt+Escape              	| Send to Bottom     	|
+| Alt+Tab                 	| Cycle Windows      	|
+
+
+| **Applications**           	|                    	|
+|-------------------------	|--------------------	|
+| Super+M                 	|  Firefox           	|
+| Super+Return            	| Terminal           	|
+| Super+F                 	| Thunar             	|
+
+
+| **Power Management**        	|                    	|
+|-------------------------	|--------------------	|
+| Super+L                 	| Lock               	|
+| Ctrl+Super+Shift+L      	| Shut Down          	|
+| Super+Shift+L           	|                    	|
 
 
 ### Coming soon (?)
@@ -71,3 +97,7 @@ View other branches:
  - Fix oblogout
  - Get rid of ugly black borders on window button hover (openbox)
  - Upload wallpaper links to readme
+
+#### View other branches
+ - [BSPWM](https://github.com/dbqeo/dotfiles/tree/bspwm)
+ - [OpenBox](https://github.com/dbqeo/dotfiles/tree/openbox)

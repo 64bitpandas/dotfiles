@@ -58,7 +58,7 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -67,7 +67,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -76,7 +76,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -85,7 +85,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -94,7 +94,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -103,7 +103,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Source Sans Pro</name>
+      <name>System Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -192,62 +192,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Up">
-      <action name="GoToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="C-A-Down">
-      <action name="GoToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Left">
-      <action name="SendToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Right">
-      <action name="SendToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Up">
-      <action name="SendToDesktop">
-        <to>up</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="S-A-Down">
-      <action name="SendToDesktop">
-        <to>down</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="W-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -255,15 +199,13 @@
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
+    <keybind key="W-Q">
+      <action name="Close"/>
+    </keybind>
     <keybind key="A-Escape">
       <action name="Lower"/>
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
-    </keybind>
-    <keybind key="A-space">
-      <action name="ShowMenu">
-        <menu>client-menu</menu>
-      </action>
     </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
@@ -276,61 +218,37 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="A-S-Tab">
-      <action name="PreviousWindow">
-        <bar>no</bar>
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
-    </keybind>
-    <keybind key="C-A-Tab">
-      <action name="NextWindow">
-        <panels>yes</panels>
-        <desktop>yes</desktop>
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
-    </keybind>
-    <!-- Keybindings for window switching with the arrow keys -->
-    <keybind key="W-S-Right">
-      <action name="DirectionalCycleWindows">
-        <direction>right</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Left">
-      <action name="DirectionalCycleWindows">
-        <direction>left</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Up">
-      <action name="DirectionalCycleWindows">
-        <direction>up</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-Down">
-      <action name="DirectionalCycleWindows">
-        <direction>down</direction>
-      </action>
-    </keybind>
+  
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
+    <keybind key="W-m">
       <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="C-grave">
+    <keybind key="W-Return">
       <action name="Execute">
-        <command>xfce4-terminal --drop-down</command>
+        <command>io.elementary.terminal -w "" -e "wal -R"</command>
+      </action>
+    </keybind>
+    <keybind key="W-f">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </keybind>
+    <!-- Keybindings for power state management -->
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>dm-tool switch-to-greeter</command>
+      </action>
+    </keybind>
+    <keybind key="C-W-S-l">
+      <action name="Execute">
+        <command>shutdown</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-l">
+      <action name="Execute">
+        <command>systemctl suspend</command>
       </action>
     </keybind>
   </keyboard>
@@ -619,16 +537,6 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
-      </mousebind>
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -814,5 +722,11 @@
 
   # end of the example
 -->
+    <application class="oblogout">
+      <position force="yes">
+        <monitor>1</monitor>
+      </position>
+      <fullscreen>yes</fullscreen>
+    </application>
   </applications>
 </openbox_config>

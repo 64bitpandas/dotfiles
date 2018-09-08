@@ -17,6 +17,7 @@
 #xfce-mcs-manager &
 thunar --daemon &
 xfce4-panel &
+plank &
 # xfdesktop &
 xcompmgr &
 opensnap &
@@ -24,3 +25,4 @@ xscreensaver -no-splash &
 VBoxClient-all &
 wal -R &
 sh ~/.fehbg &
+ibus-setup
