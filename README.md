@@ -24,12 +24,13 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
  10. Set the background and color scheme using `wal -i /path/to/dotfiles/images/mojave.jpg`
  11. Move `Gimp-Arc-Dark-Theme` in the Themes/ folder to `/usr/share/gimp/2.0/themes`
  12. Don't forget themes for Firefox, VSCode, etc.
- 13. Enjoy the beautiful desktop :D
+ 13. Move the background image of your choice (I recommend the Mojave wallpaper) for the lock screen to `/usr/share/lightdm-webkit/themes/litarvan/images`.
+ 14. Enjoy the beautiful desktop :D
  
 ### Package Lists
 
 **Required packages**
- - firefox-developer-edition
+ - firefox
  - python-pip
  - imagemagick
  - pywal (pip3 install pywal)
@@ -41,9 +42,10 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
  - git
  - plank
  - openbox-patched
+ - graphicsmagick
+ - xclip
  - io.elementary.terminal (pantheon-terminal)
  - San Francisco font (grab from your nearest Mac)
- - macos-icon-theme
  - Arc Dark with OSX Buttons (included)
  - [Mojave and High Sierra Plank Themes](https://www.gnome-look.org/p/1248226/) Install to /usr/share/plank/themes
  
@@ -83,6 +85,7 @@ Welcome to my Linux dotfile collection! This is the Openbox-OSX branch, which co
 | Super+M                 	|  Firefox           	|
 | Super+Return            	| Terminal           	|
 | Super+F                 	| Thunar             	|
+| PrintScreen               | Selection Screenshot to Clipboard |
 
 
 | **Power Management**        	|                    	|

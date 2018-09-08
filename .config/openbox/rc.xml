@@ -235,6 +235,12 @@
         <command>thunar</command>
       </action>
     </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>~/.config/openbox/screenshot</command>
+      </action>
+    </keybind>
+
     <!-- Keybindings for power state management -->
     <keybind key="W-l">
       <action name="Execute">

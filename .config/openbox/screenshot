@@ -1,0 +1,1 @@
+gm import root ~/Pictures/screenshot-temp.png && xclip -i < ~/Pictures/screenshot-temp.png -t image/png -selection clipboard
