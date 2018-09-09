@@ -254,7 +254,7 @@
     </keybind>
     <keybind key="W-S-l">
       <action name="Execute">
-        <command>systemctl suspend</command>
+        <command>~/.config/openbox/suspend</command>
       </action>
     </keybind>
   </keyboard>
