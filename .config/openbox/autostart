@@ -25,4 +25,7 @@ xscreensaver -no-splash &
 VBoxClient-all &
 wal -R &
 sh ~/.fehbg &
-ibus-setup
+export GTK_IM_MODULE=xim &
+export XMODIFIERS=@im=ibus &
+export QT_IM_MODULE=xim &
+ibus-daemon -drx
