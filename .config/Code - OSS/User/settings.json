@@ -1,7 +1,0 @@
-{
-    "extensions.autoUpdate": true,
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "workbench.iconTheme": "material-icon-theme"
-}
