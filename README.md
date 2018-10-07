@@ -1,4 +1,4 @@
-# dbqeo's dotfiles
+# dbqeo's dotfiles: Openbox Branch
 
 For best results, use Arch Linux! :)
 
