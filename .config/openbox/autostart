@@ -1,0 +1,39 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+thunar --daemon &
+dbus-launch &
+#xfce4-panel &
+#xfdesktop &
+#xcompmgr &
+compton &
+opensnap &
+# pulseaudio &
+# xscreensaver -no-splash &
+# VBoxClient-all &
+wal -R &
+plank &
+sh ~/.fehbg &
+export GTK_IM_MODULE=xim &
+export XMODIFIERS=@im=ibus &
+export QT_IM_MODULE=xim &
+ibus-daemon -drx &
+conky -c /home/dbqeo/.config/conky/flea/flea.conkyrc &
+tint2 -c /home/dbqeo/.config/tint2/Fmaj7/Fmaj7.tint2rc &
+ip link set dev enp27s0 up &
+dhcpcd enp27s0 &
+/home/dbqeo/.config/polybar/launch-polybar.sh

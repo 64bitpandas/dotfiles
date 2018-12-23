@@ -1,0 +1,7 @@
+[Added Associations]
+application/xml=visual-studio-code.desktop;
+application/json=visual-studio-code.desktop;
+image/png=feh.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+image/jpeg=feh.desktop;
+text/plain=visual-studio-code.desktop;
