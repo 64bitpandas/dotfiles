@@ -18,7 +18,7 @@ font-1 = MaterialIcons:size=10;0
 font-2 = Termsynu:size=8:antialias=false;-2
 font-3 = FontAwesome:size=10;0
 
-modules-left = powermenu temperature xwindow
+modules-left = powermenu temperature ewmh xwindow
 modules-right = volume backlight network battery date
 modules-center = cpu memory
 
@@ -346,3 +346,62 @@ interval = 3
 format-foreground = #ccffffff
 format-prefix = ""
 format-prefix-foreground = #ccffffff
+
+[module/ewmh]
+type = internal/xworkspaces
+
+; Only show workspaces defined on the same output as the bar
+;
+; Useful if you want to show monitor specific workspaces
+; on different bars
+;
+; Default: false
+pin-workspaces = true
+
+; Create click handler used to focus desktop
+; Default: true
+enable-click = true
+
+; Create scroll handlers used to cycle desktops
+; Default: true
+enable-scroll = false
+
+; icon-[0-9]+ = <desktop-name>;<icon>
+; NOTE: The desktop name needs to match the name configured by the WM
+; You can get a list of the defined desktops using:
+; $ xprop -root _NET_DESKTOP_NAMES
+icon-0 = Relax;  
+icon-1 = Code;  
+icon-2 = Study;  
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(active|urgent|occupied|empty)>
+; Default: <label-state>
+format = <label-state>
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name% 
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-active = " %icon% %name%  " 
+label-active-foreground = #ffffff
+label-active-background = #3f3f3f
+; label-active-underline = #fba922
+
+
+
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-empty = ${module/ewmh.label-active}
+ label-empty-foreground = #99
