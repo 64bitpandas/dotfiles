@@ -1,15 +1,18 @@
-# BananiumLabs Linux Dotfiles
+# 64BitPandas' Linux Dotfiles
 
 ## For users
 Please navigate to a different branch to view specific instructions on how to install the dotfiles!
 
+### Active Development: [Manjaro-Summer](../../tree/manjaro-summer)
+
 #### Branch List
+ - [Manjaro-Summer](../../tree/manjaro-summer)
  - [Openbox-Winter](../../tree/openbox-winter)
  - [Openbox-OSX](../../tree/openbox-osx)
  - [Openbox](../../tree/openbox)
  - [bspwm](../../tree/bspwm)
 
-## For contributors
+## For contributors/myself
 #### How to contribute:
 1. Fork if necessary, then create a new branch from master. **NOTE: NEVER PR FROM ANOTHER BRANCH TO MASTER!!!**
 2. Delete this README and rename `EXAMPLE_README.md` to `README.md`.
