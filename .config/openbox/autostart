@@ -1,0 +1,53 @@
+### use arandr to set screen preference
+### save as ~/.screenlayout/dual-head.sh
+### uncomment next line
+# ~/.screenlayout/dual-head.sh
+
+### compositor
+sleep 1; compton &
+
+### restore wallpaper
+sleep 1; nitrogen --restore &
+sleep 1; manjaro-tint2-session &
+
+### Openbox autostart
+sleep 1; ob-autostart -d &
+
+### launch conky
+# manjaro-conky-session &
+
+### volumeicon
+sleep 1; volumeicon &
+
+### PolicyKit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+### Side shortcuts for file managers
+xdg-user-dirs-gtk-update &
+
+### enable numlock
+### uncomment next line
+# sleep 0.5; numlockx &
+
+### launch thunar in daemon mode
+sleep 1; thunar --daemon &
+
+### Required for xfce settings to work
+xfsettingsd &
+
+### Custom commands
+plank &
+opensnap &
+wal -R &
+
+export GTK_IM_MODULE=xim &
+export XMODIFIERS=@im=ibus &
+export QT_IM_MODULE=xim &
+
+ibus-daemon &
+
+pkill polybar &
+~/.config/polybar/launch-polybar.sh &
+tilda -t 100 -c cava &
+
+
