@@ -3,7 +3,7 @@
 Summer 2019 Openbox rice! Made a nice, clean environment to support the wallpaper I drew.
 
 <!-- REMEMBER TO EDIT THIS!!! -->
-![Screenshot]()
+![Screenshot](screenshot.png)
 
  - **OS:** Manjaro
  - **DE:** [Openbox-Patched](https://github.com/dylanaraps/openbox-patched)
@@ -55,7 +55,7 @@ Summer 2019 Openbox rice! Made a nice, clean environment to support the wallpape
 ### Part 2. Getting the Essentials
  1. Get yay: `git clone https://aur.archlinux.org/yay.git`, then `cd yay` then  `makepkg -si`
  2. Update packages: `yay -Syyu`
- 3. Basic programs: `visual-studio-code-bin`. `discord`, `jdk8`, `rxvt-unicode`, `python-pip`, `nodejs`, `npm`, `adobe-source-code-pro-fonts`
+ 3. Basic programs: `visual-studio-code-bin`. `discord`, `jdk8`, `rxvt-unicode`, `python-pip`, `nodejs`, `npm`, `adobe-source-code-pro-fonts`, `ttf-material-icons-git`
  4. If necessary, customize grub order using `grub-customizer` and set EFI boot order using `efibootmgr` and `efibootmgr -o #1,#2,#3......` (If this doesn't work, the BIOS might be overriding it. Check the settings there)
 
 ### Part 3. Basic Ricing/Desktop Necessities
@@ -81,22 +81,20 @@ Summer 2019 Openbox rice! Made a nice, clean environment to support the wallpape
  2. Set theme and fonts using Manjaro appearance panel (press the Super key -> Settings -> Appearance)
  3. Set openbox themes using `obconf`
 
-### Part 6. Polybar Ricing
-
-### Part 8. Pywal and Color Schemes
+### Part 6. Pywal and Color Schemes
  1. Set color scheme and wallpaper: `wal -i path/to/image.png -b "#260422 -a 50` (extra parameters are for blur, adjust accordingly)
  2. Add `wal -R` to .bashrc and .zshrc
  3. Run `nitrogen` and set the wallpaper to the same one from the `wal` command
  4. Get [vscode-wal](https://github.com/Bluedrack28/vscode-wal) and follow the instructions for vscode color schemes
 
-### Part 9. Installing the config files
+### Part 7. Installing the config files
  1. Clone the repository. `git clone https://github.com/64bitpandas/dotfiles`
  1. Run `cd dotfiles && git checkout manjaro-summer`
  1. Run a `cp -r` to copy `.config` to `~/`
  1. Copy .Xresources and .zshrc to `~/`
  1. Enjoy the beautiful desktop :D
 
-### Part 10: Multilanguage Support
+### Part 8: Multilanguage Support
   1. Get `ibus`, `ibus-libpinyin`,  `adobe-source-han-sans-cn-fonts`
   3. Run `ibus-setup` to configure languages, then restart for it to take effect
 
@@ -120,7 +118,9 @@ Summer 2019 Openbox rice! Made a nice, clean environment to support the wallpape
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=xim
 `
-  13. Add 
+  13. Add `~/.config/polybar/launch-polybar.sh` to autostart
+  14. To get info for any application, run `wmctrl -l` then `obxprop --id 0xSOMETHING`
+  15. Cava tutorial: https://www.devpy.me/how-to-add-a-music-visualizer-to-your-linux-desktop/
 
 
 
