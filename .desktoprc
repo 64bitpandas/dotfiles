@@ -1,0 +1,7 @@
+~/remote/doconfig &
+nohup sleep 2 && ~/remote/doconfig &
+nohup sleep 3 && ~/remote/doconfig &
+nohup sleep 4 && ~/remote/doconfig &
+nohup sleep 5 && ~/remote/doconfig &
+nohup sleep 6 && pkill xfwm4-settings &
+nohup sleep 6 && code --install-extension ms-vscode-remote.remote-ssh && code --install-extension dustinsanders.an-old-hope-theme-vscode &

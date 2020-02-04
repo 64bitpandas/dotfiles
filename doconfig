@@ -1,0 +1,11 @@
+cp ~/remote/.bashrc ~/ &
+xfwm4-settings &
+mkdir ~/.themes &
+cp ~/remote/themes/Flat-Remix-GTK-Blue-Dark ~/.themes -r &
+xfconf-query -c xsettings -p /Net/ThemeName -s "Flat-Remix-GTK-Blue-Dark" &
+cp ./terminalrc ~/.config/xfce4/terminal/ &
+xfconf-query -c xfwm4 -p /general/theme -s "Flat-Remix-GTK-Blue-Dark" &
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor0/workspace0/last-image -s "/home/b/be/bencuan/remote/desktop.png" &
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitor1/workspace0/last-image -s "/home/b/be/bencuan/remote/desktop.png" &
+xfconf-query -c xfwm4 -p /general/title_font -s "Roboto 11" &
+xfce4-panel -r &
