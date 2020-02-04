@@ -1,23 +1,17 @@
-# 64BitPandas' Linux Dotfiles
+# ocf dotfiles
 
-## For users
-Please navigate to a different branch to view specific instructions on how to install the dotfiles!
+My OCF account desktop rice. It's super janky but it works and it looks decent enough. Probably not going to fix until break
 
-### Active Development: [Manjaro-Summer](../../tree/manjaro-summer)
+(Oh, btw the `.bashrc_61b` is my instructional account rice for 61b. Didn't know where to put it so here it is)
 
-#### Branch List
- - [Manjaro-Summer](../../tree/manjaro-summer)
- - [Openbox-Winter](../../tree/openbox-winter)
- - [Openbox-OSX](../../tree/openbox-osx)
- - [Openbox](../../tree/openbox)
- - [bspwm](../../tree/bspwm)
+<!-- REMEMBER TO EDIT THIS!!! -->
+![Screenshot](https://github.com/dbqeo/dotfiles/blob/ocf/screenshot.png)
 
-## For contributors/myself
-#### How to contribute:
-1. Fork if necessary, then create a new branch from master. **NOTE: NEVER PR FROM ANOTHER BRANCH TO MASTER!!!**
-2. Delete this README and rename `EXAMPLE_README.md` to `README.md`.
-3. Edit the new README to include all necessary details and screenshots for your configuration. The goal is to make it easy for any user to reproduce your exact setup by simply following instructions.
-4. Upload your dotfiles! Remember to include any configs that are outside of `~/.config` and any special instructions for installing them. Also remove any files from `.config` that are not unique to your config (e.g. spotify, vscode, discord...)
-5. Add your branch to the directory in the master README.
-
-
+### How to Install
+ <!-- REMEMBER TO EDIT THIS!!! -->
+ 1. Login to your ocf account in the lab.
+ 2. Open a terminal and `cd remote`.
+ 3. `git clone https://github.com/64bitpandas/dotfiles`
+ 4. `git checkout ocf`
+ 5. Move all the files from the dotfiles folder into the root remote directory.
+ 6. The config should automatically apply whenever you login to a new desktop! (To test, `source ./.desktoprc`)
