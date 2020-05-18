@@ -3,12 +3,13 @@
 ## For users
 Please navigate to a different branch to view specific instructions on how to install the dotfiles!
 
-### Active Development: [Manjaro-Summer](../../tree/manjaro-summer)
+### Active Development: [SummerSky](../../tree/summersky)
 
 #### Branch List
- - [Manjaro-Summer](../../tree/manjaro-summer)
- - [Openbox-Winter](../../tree/openbox-winter)
- - [Openbox-OSX](../../tree/openbox-osx)
+ - [SummerSky](../../tree/summersky): Vanilla Arch Qtile rice featuring togglable light and dark themes
+ - [Manjaro-Summer](../../tree/manjaro-summer): A Manjaro Openbox rice with custom wallpaper
+ - [Openbox-Winter](../../tree/openbox-winter): A cleaner, more customized spiritual successor to Openbox-OSX
+ - [Openbox-OSX](../../tree/openbox-osx): A vanilla Arch-based Openbox rice inspired by MacOS
  - [Openbox](../../tree/openbox)
  - [bspwm](../../tree/bspwm)
 
