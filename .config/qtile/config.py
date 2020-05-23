@@ -32,6 +32,7 @@ import subprocess
 from typing import List  # noqa: F401
 
 mod = "mod4"
+home = os.path.expanduser('~')
 
 keys = [
     # Switch between windows in current stack pane
@@ -45,13 +46,36 @@ keys = [
     # Grow and shrink windows
     Key([mod], "i", lazy.layout.grow()),
     Key([mod], "m", lazy.layout.shrink()),
+    
+    # Screenshot
+    # Key([mod, "shift"], "s", lazy.spawn(["sh", "-c", "~/.config/qtile/screenshot.sh"])),
+    # Key([mod, "shift"], "s", lazy.spawn(home + "/.config/qtile/screenshot.sh")),
+]
+
+keys = [
+    # Switch between windows in current stack pane
+    Key([mod], "k", lazy.layout.down()),
+    Key([mod], "j", lazy.layout.up()),
+
+    # Move windows up or down in current stack
+    Key([mod, "control"], "k", lazy.layout.shuffle_down()),
+    Key([mod, "control"], "j", lazy.layout.shuffle_up()),
+    
+    # Grow and shrink windows
+    Key([mod], "i", lazy.layout.grow()),
+    Key([mod], "m", lazy.layout.shrink()),
+    
+    # Screenshot
+    # Key([mod, "shift"], "s", lazy.spawn(["sh", "-c", "~/.config/qtile/screenshot.sh"])),
+    Key([mod, "shift"], "s", lazy.spawn(home + "/.config/qtile/screenshot.sh")),
 
     # Open common applications
     Key([mod], "space", lazy.spawn("dmenu_run")),
     Key([mod], "f", lazy.spawn("thunar")),
     Key([mod], "g", lazy.spawn("firefox")),
     Key([mod], "c", lazy.spawn("code")),
-    Key([mod], "m", lazy.spawn("caprine")),
+    # doesn't work :( Key([mod], "s", lazy.spawn("spotify-adblock")),
+    Key([mod, "shift"], "m", lazy.spawn("caprine")),
 
     # Swap panes of split stack
     Key([mod, "shift"], "space", lazy.layout.rotate()),
@@ -196,3 +220,4 @@ wmname = "LG3D"
 def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
     subprocess.call([home])
+

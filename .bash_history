@@ -1036,3 +1036,125 @@ yadm reset
 yadm reset
 yadm add . --verbose
 yadm reset
+yadm add . --verbose
+yadm commit -m"Add firefox, spotify, qtile"
+git config --global user.email "github@bencuan.me"
+git config --global user.name "Ben Cuan"
+yadm commit -m"Add firefox, spotify, qtile"
+git push
+git config --global credential.helper store
+yadm push
+yadm push
+yadm push
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+[ben@summersky ~]$ 
+yay -S parcellite
+parcellite
+qtile-start-config 
+yadm push
+exo-open
+exo-open WebBrowser
+yay -S xfce4-settings
+xfce4-settings
+xfce4-settings-editor
+xfce4-settings-manager
+xkill
+dmenu_run urxvt
+dmenu
+dmenu urxvt
+mkdir -p ~/Pictures/screenshots
+cd Pictures
+ls
+cd screenshots
+cd ..
+mkdir Pictures/screenshots
+scrot
+yay -S scrot
+xclip
+scrot -s $HOME/Pictures/screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'
+qtile-config
+dmenu_run | urxvt
+sh -c ~/.config/qtile/screenshot.sh
+chmod +x ~/.config/qtile/screenshot.sh 
+sh -c ~/.config/qtile/screenshot.sh
+qtile-config
+./.config/qtile/screenshot.sh 
+spawn
+yay -S xbindkeys
+yay -S xbindkeys_config-gtk2
+xbindkeys_config
+xbindkeys_config
+yay -S xbindkeys_config-gtk2
+xbindkeys
+xbindkeys --defaults
+xbindkeys
+xbindkeys --defaults > ~/.xbindkeysrc
+xbindkeys
+xbindkeys --key
+xbindkeys --key
+xbindkeys --key
+xbindkeys --key
+xbindkeys --multikey
+vim .xbindkeysrc 
+xbindkeys
+vim .xbindkeysrc 
+xbindkeys_show
+xbindkeys -n
+xbindkeys --multikey
+vim .xbindkeysrc 
+xbindkeys -n
+vim .xbindkeysrc 
+xbindkeys -n
+vim .xbindkeysrc 
+xbindkeys -n
+vim .xbindkeysrc 
+yay -S gconf-editor
+spicetify apply
+spicetify apply
+gconf-editor
+cd ~/.config/qtile/
+ls
+cp screenshot.sh ~/.local/bin/scr
+scr
+ln -sf ~/.local/bin/scr /usr/bin/
+sudo ln -sf ~/.local/bin/scr /usr/bin/
+sudo ln -sf ~/.local/bin/scr /usr/bin/
+spicetify apply
+spicetify apply
+spicetify apply
+yay -R xbindkeys
+pkill xbindkeys
+spicetify apply
+spicetify apply
+spicetify apply
+xprop
+pkill compton
+yadm add .
+cd ..
+yadm add --verbose
+yadm add . --verbose
+yadm reset
+yadm add . --verbose
+yadm reset

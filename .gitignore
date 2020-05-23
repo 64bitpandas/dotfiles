@@ -3,6 +3,7 @@
 .xsession-errors.old
 Documents/
 Downloads/
+Pictures/
 temp/
 .vscode-oss/
 .ssh/
@@ -29,3 +30,6 @@ temp/
 .config/spicetify/Extensions
 .config/spicetify/Extracted
 .config/firefox/Firefox-Mod
+.git-credentials
+.gitconfig
+.bash_history
