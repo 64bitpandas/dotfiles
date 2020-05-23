@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/ben/wallpapers/summer_sky_rough.png' 
