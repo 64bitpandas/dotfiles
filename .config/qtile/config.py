@@ -47,35 +47,12 @@ keys = [
     Key([mod], "i", lazy.layout.grow()),
     Key([mod], "m", lazy.layout.shrink()),
     
-    # Screenshot
-    # Key([mod, "shift"], "s", lazy.spawn(["sh", "-c", "~/.config/qtile/screenshot.sh"])),
-    # Key([mod, "shift"], "s", lazy.spawn(home + "/.config/qtile/screenshot.sh")),
-]
-
-keys = [
-    # Switch between windows in current stack pane
-    Key([mod], "k", lazy.layout.down()),
-    Key([mod], "j", lazy.layout.up()),
-
-    # Move windows up or down in current stack
-    Key([mod, "control"], "k", lazy.layout.shuffle_down()),
-    Key([mod, "control"], "j", lazy.layout.shuffle_up()),
-    
-    # Grow and shrink windows
-    Key([mod], "i", lazy.layout.grow()),
-    Key([mod], "m", lazy.layout.shrink()),
-    
-    # Screenshot
-    # Key([mod, "shift"], "s", lazy.spawn(["sh", "-c", "~/.config/qtile/screenshot.sh"])),
-    Key([mod, "shift"], "s", lazy.spawn(home + "/.config/qtile/screenshot.sh")),
-
     # Open common applications
     Key([mod], "space", lazy.spawn("dmenu_run")),
     Key([mod], "f", lazy.spawn("thunar")),
     Key([mod], "g", lazy.spawn("firefox")),
     Key([mod], "c", lazy.spawn("code")),
     # doesn't work :( Key([mod], "s", lazy.spawn("spotify-adblock")),
-    Key([mod, "shift"], "m", lazy.spawn("caprine")),
 
     # Swap panes of split stack
     Key([mod, "shift"], "space", lazy.layout.rotate()),
@@ -93,11 +70,13 @@ keys = [
 
     # Default config keys that I don't use
     Key([mod, "control"], "r", lazy.restart()),
-    # Key([mod, "control"], "q", lazy.shutdown()),
     # Key([mod], "r", lazy.spawncmd()),
 
     # Switch to greeter view (lock)
     Key([mod], "l", lazy.spawn("dm-tool switch-to-greeter")),
+
+    # Screenshot
+    Key([mod, "shift"], "s", lazy.spawn("xfce4-screenshooter -r -o \"xclip -selection clipboard -t image/png\""))
 ]
 
 groups = [Group(i) for i in "12345"]
@@ -108,10 +87,10 @@ for i in groups:
         Key([mod], i.name, lazy.group[i.name].toscreen()),
 
         # mod1 + shift + letter of group = switch to & move focused window to group
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True)),
+        # Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True)),
         # Or, use below if you prefer not to switch to that group.
         # # mod1 + shift + letter of group = move focused window to group
-        # Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
     ])
 
 layouts = [

@@ -1158,3 +1158,33 @@ yadm add . --verbose
 yadm reset
 yadm add . --verbose
 yadm reset
+yadm add . --verbose
+yadm commit -m "Update spotify, start readme"
+yadm push
+reboot
+sh -c scr
+xev
+yay -S sev
+yay -S xev
+yay -S xorg-xev
+xev
+xev | grep keycode
+yay -S xfce4-screenshooter
+xfce4-screenshooter -r
+maim
+yay -S maim
+maim -s
+maim -s | xclip -selection clipboard -t image/png
+xfce-screenshooter -r | xclip -selection clipboard -t image/png
+xfce4-screenshooter -r | xclip -selection clipboard -t image/png
+xfce4-screenshooter --help
+xfce4-screenshooter
+xfce4-screenshooter --help
+xfce4-screenshooter -r -c
+xfce4-screenshooter -r -s ~/Pictures/screenshots
+xfce4-screenshooter -r -s ~/Pictures/screenshots test
+xfce4-screenshooter -r -o xclip
+xfce4-screenshooter -r -o xclip
+xfce4-screenshooter -r -o xclip -selection clipboard -t image/png
+xfce4-screenshooter -r -o "xclip -selection clipboard -t image/png"
+xfce4-screenshooter -r -o "xclip -selection clipboard -t image/png"
