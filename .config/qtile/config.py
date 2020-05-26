@@ -94,9 +94,9 @@ for i in groups:
     ])
 
 layouts = [
-    layout.MonadTall(margin=10, border_focus='#ffffff'),
+    layout.MonadTall(margin=5, border_focus='#ffffff', border_normal='#3492e7'),
     layout.Max(),
-    layout.MonadWide(),
+    layout.MonadWide(margin=5, border_focus='#ffffff', border_normal='#3492e7'),
     # layout.Stack(num_stacks=2),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
