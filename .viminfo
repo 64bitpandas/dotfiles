@@ -11,29 +11,111 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/screen
+~MSle0~/en_US
 
 # Last Substitute Search Pattern:
-~MSle0~&LDPRELOAD=\/usr\/local\/lib\/spotify-adblock.so
+~MSle0&LDPRELOAD=\/usr\/local\/lib\/spotify-adblock.so
 
 # Last Substitute String:
 $""
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1590458483,,"wq"
-:w
-|2,0,1590458465,,"w"
-:q!
-|2,0,1590458357,,"q!"
 :q
-|2,0,1590285977,,"q"
+|2,0,1590524357,,"q"
+:q!
+|2,0,1590524353,,"q!"
+:cd ..
+|2,0,1590524327,,"cd .."
+:wq
+|2,0,1590524272,,"wq"
+:AirlineTheme badwolf
+|2,0,1590524220,,"AirlineTheme badwolf"
+:AirlineTheme wombat
+|2,0,1590524167,,"AirlineTheme wombat"
+:AirlineTheme ubaryd
+|2,0,1590524146,,"AirlineTheme ubaryd"
+:AirlineTheme tomorrow
+|2,0,1590524139,,"AirlineTheme tomorrow"
+:AirlineTheme bubblegum
+|2,0,1590524123,,"AirlineTheme bubblegum"
+:AirlineTheme solarized
+|2,0,1590524112,,"AirlineTheme solarized"
+:AirlineTheme solarized_dark
+|2,0,1590524105,,"AirlineTheme solarized_dark"
+:AirlineTheme solarizeddark
+|2,0,1590524102,,"AirlineTheme solarizeddark"
+:AirlineTheme solarized-dark
+|2,0,1590524100,,"AirlineTheme solarized-dark"
+:AirlineTheme simple
+|2,0,1590524085,,"AirlineTheme simple"
+:AirlineTheme powerlineish
+|2,0,1590524079,,"AirlineTheme powerlineish"
+:AirlineTheme light
+|2,0,1590524043,,"AirlineTheme light"
+:AirlineTheme deus
+|2,0,1590523991,,"AirlineTheme deus"
+:source %
+|2,0,1590523852,,"source %"
+:w
+|2,0,1590523850,,"w"
+:s
+|2,0,1590523826,,"s"
+:W!
+|2,0,1590521695,,"W!"
 :W
-|2,0,1590263217,,"W"
+|2,0,1590521693,,"W"
+:wq!
+|2,0,1590521690,,"wq!"
+:set encoding=utf-8
+|2,0,1590519681,,"set encoding=utf-8"
+:set encoding=US-ASCII
+|2,0,1590519678,,"set encoding=US-ASCII"
+:set encoding=utf-16
+|2,0,1590519650,,"set encoding=utf-16"
+:help octal
+|2,0,1590519618,,"help octal"
+:help iccf
+|2,0,1590518839,,"help iccf"
+:qhelp iccf
+|2,0,1590518837,,"qhelp iccf"
+:set guifont=DejaVu_Sans_Mono_for_Powerline:h12
+|2,0,1590518167,,"set guifont=DejaVu_Sans_Mono_for_Powerline:h12"
+:set guifont=DejaVu_Sans_Mono_for_Powerline
+|2,0,1590518162,,"set guifont=DejaVu_Sans_Mono_for_Powerline"
+:set guifont=*
+|2,0,1590518150,,"set guifont=*"
+:set guifont
+|2,0,1590518147,,"set guifont"
+:set guifont?
+|2,0,1590518145,,"set guifont?"
+:.q
+|2,0,1590517956,,".q"
+:AirlineTHeme deus
+|2,0,1590517839,,"AirlineTHeme deus"
+:AirlineTheme base16
+|2,0,1590517811,,"AirlineTheme base16"
+:BundleInstall
+|2,0,1590517762,,"BundleInstall"
+:PluginInstall
+|2,0,1590517659,,"PluginInstall"
+:AirlineTheme 
+|2,0,1590517475,,"AirlineTheme "
+:h vundle
+|2,0,1590516738,,"h vundle"
+:source &
+|2,0,1590516692,,"source &"
+:P
+|2,0,1590516656,,"P"
+:PluginList
+|2,0,1590516618,,"PluginList"
+:NERDTreeToggle
+|2,0,1590516224,,"NERDTreeToggle"
+:NERDTree
+|2,0,1590516197,,"NERDTree"
+:nerdtree
+|2,0,1590516194,,"nerdtree"
 :ww
 |2,0,1590260192,,"ww"
-:wq!
-|2,0,1590255337,,"wq!"
 :h matchpairs
 |2,0,1590177009,,"h matchpairs"
 :s/LDPRELOAD=\/usr\/local\/lib\/spotify-adblock.so/""
@@ -64,6 +146,16 @@ $""
 |2,0,1589925108,,"vs ~/.vimrc"
 
 # Search String History (newest to oldest):
+?/en_US
+|2,1,1590521685,47,"en_US"
+?/EN_U
+|2,1,1590521680,47,"EN_U"
+?/en_US.
+|2,1,1590521675,47,"en_US."
+?/^"""
+|2,1,1590516445,47,"^\"\"\""
+?/oi
+|2,1,1590515658,47,"oi"
 ?/spotify
 |2,1,1590250589,47,"spotify"
 ? LDPRELOAD=\/usr\/local\/lib\/spotify-adblock.so
@@ -95,279 +187,483 @@ $""
 
 # Registers:
 "0	LINE	0
-	    Key([mod], "space", lazy.spawn("dmenu_run")),
-|3,0,0,1,1,0,1590266080,"    Key([mod], \"space\", lazy.spawn(\"dmenu_run\")),"
+	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+	" => General
+	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+|3,0,0,1,3,0,1590515416,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\" => General","\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1590282642,""
+	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+	" 64bitpandas .vimrc
+|3,1,1,1,2,0,1590516904,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\" 64bitpandas .vimrc"
 "2	LINE	0
-	]
-|3,0,2,1,1,0,1590282642,"]"
+	Plugin 'file:///home/gmarik/path/to/plugin'
+|3,0,2,1,1,0,1590516534,"Plugin 'file:///home/gmarik/path/to/plugin'"
 "3	LINE	0
-	    Key([mod], "s",  lazy.spawn("urxvss"))
-|3,0,3,1,1,0,1590282641,"    Key([mod], \"s\",  lazy.spawn(\"urxvss\"))"
+	" git repos on your local machinedd (i.e. when working on your own plugin)
+|3,0,3,1,1,0,1590516534,"\" git repos on your local machinedd (i.e. when working on your own plugin)"
 "4	LINE	0
-	    # Screenshot
-|3,0,4,1,1,0,1590282641,"    # Screenshot"
+	autocmd vimenter * NERDTree
+|3,0,4,1,1,0,1590516232,"autocmd vimenter * NERDTree"
 "5	LINE	0
-	    
-|3,0,5,1,1,0,1590282640,"    "
+	" Plugin 'ascenator/L9', {'name': 'newL9'}
+|3,0,5,1,1,0,1590516075,"\" Plugin 'ascenator/L9', {'name': 'newL9'}"
 "6	LINE	0
-	    Key([mod], "m", lazy.layout.shrink()),
-|3,0,6,1,1,0,1590282640,"    Key([mod], \"m\", lazy.layout.shrink()),"
+	" different version somewhere else.
+|3,0,6,1,1,0,1590516075,"\" different version somewhere else."
 "7	LINE	0
-	    Key([mod], "i", lazy.layout.grow()),
-|3,0,7,1,1,0,1590282640,"    Key([mod], \"i\", lazy.layout.grow()),"
+	" Install L9 and avoid a Naming conflict if you've already installed a
+|3,0,7,1,1,0,1590516074,"\" Install L9 and avoid a Naming conflict if you've already installed a"
 "8	LINE	0
-	    # Grow and shrink windows
-|3,0,8,1,1,0,1590282639,"    # Grow and shrink windows"
+	" Pass the path to set the runtimepath properly.
+|3,0,8,1,1,0,1590516074,"\" Pass the path to set the runtimepath properly."
 "9	LINE	0
-	    
-|3,0,9,1,1,0,1590282639,"    "
+	" The sparkup vim script is in a subdirectory of this repo called vim.
+|3,0,9,1,1,0,1590516073,"\" The sparkup vim script is in a subdirectory of this repo called vim."
 "-	CHAR	0
 	t
 |3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  1  21  ~/.config/gtk-3.0/settings.ini
-|4,48,1,21,1590458483,"~/.config/gtk-3.0/settings.ini"
-'1  1  0  ~/.config/gtk-2.0/settings.ini
-|4,49,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
-'2  1  0  ~/.config/gtk-2.0/settings.ini
-|4,50,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
-'3  1  0  ~/.config/gtk-3.0/settings.ini
-|4,51,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
-'4  152  19  ~/.config/qtile/config.py
-|4,52,152,19,1590427817,"~/.config/qtile/config.py"
-'5  20  31  ~/.config/spicetify/config.ini
-|4,53,20,31,1590338554,"~/.config/spicetify/config.ini"
-'6  174  0  ~/.config/qtile/config.py
-|4,54,174,0,1590295619,"~/.config/qtile/config.py"
-'7  174  0  ~/.config/qtile/config.py
-|4,55,174,0,1590295619,"~/.config/qtile/config.py"
-'8  79  68  ~/.config/qtile/config.py
-|4,56,79,68,1590285977,"~/.config/qtile/config.py"
-'9  79  68  ~/.config/qtile/config.py
-|4,57,79,68,1590285977,"~/.config/qtile/config.py"
+'0  16  1  /home/NERD_tree_1
+|4,48,16,1,1590524357,"/home/NERD_tree_1"
+'1  57  27  ~/.vimrc
+|4,49,57,27,1590524272,"~/.vimrc"
+'2  57  27  ~/.vimrc
+|4,50,57,27,1590524272,"~/.vimrc"
+'3  15  152  ~/.Xresources
+|4,51,15,152,1590523180,"~/.Xresources"
+'4  15  152  ~/.Xresources
+|4,52,15,152,1590522694,"~/.Xresources"
+'5  14  191  ~/.Xresources
+|4,53,14,191,1590522694,"~/.Xresources"
+'6  15  152  ~/.Xresources
+|4,54,15,152,1590522694,"~/.Xresources"
+'7  67  33  ~/.vimrc
+|4,55,67,33,1590522678,"~/.vimrc"
+'8  67  33  ~/.vimrc
+|4,56,67,33,1590522678,"~/.vimrc"
+'9  67  33  ~/.vimrc
+|4,57,67,33,1590522678,"~/.vimrc"
 
 # Jumplist (newest first):
--'  1  21  ~/.config/gtk-3.0/settings.ini
-|4,39,1,21,1590458483,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-2.0/settings.ini
-|4,39,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
--'  1  0  ~/.config/gtk-2.0/settings.ini
-|4,39,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
--'  1  0  ~/.config/gtk-2.0/settings.ini
-|4,39,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
--'  1  0  ~/.config/gtk-2.0/settings.ini
-|4,39,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
--'  1  0  ~/.config/gtk-3.0/settings.ini
-|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  152  19  ~/.config/qtile/config.py
-|4,39,152,19,1590427817,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590427648,"~/.config/qtile/config.py"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  20  31  ~/.config/spicetify/config.ini
-|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  1  0  ~/.config/spicetify/config.ini
-|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  16  1  /home/NERD_tree_1
+|4,39,16,1,1590524357,"/home/NERD_tree_1"
+-'  59  4  /home/NERD_tree_1
+|4,39,59,4,1590524344,"/home/NERD_tree_1"
+-'  1  1  /home/NERD_tree_1
+|4,39,1,1,1590524344,"/home/NERD_tree_1"
+-'  57  27  ~/.vimrc
+|4,39,57,27,1590524272,"~/.vimrc"
+-'  57  27  ~/.vimrc
+|4,39,57,27,1590524272,"~/.vimrc"
+-'  129  6  ~/.vimrc
+|4,39,129,6,1590524130,"~/.vimrc"
+-'  129  6  ~/.vimrc
+|4,39,129,6,1590524130,"~/.vimrc"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590523180,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590523180,"~/.Xresources"
+-'  255  0  ~/.vimrc
+|4,39,255,0,1590523083,"~/.vimrc"
+-'  255  0  ~/.vimrc
+|4,39,255,0,1590523083,"~/.vimrc"
+-'  39  0  ~/.vimrc
+|4,39,39,0,1590523081,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1590523081,"~/.vimrc"
+-'  39  0  ~/.vimrc
+|4,39,39,0,1590523081,"~/.vimrc"
+-'  4  0  ~/.vimrc
+|4,39,4,0,1590523081,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590523077,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590523077,"~/.vimrc"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522719,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522719,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  14  191  ~/.Xresources
+|4,39,14,191,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  14  191  ~/.Xresources
+|4,39,14,191,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  15  152  ~/.Xresources
+|4,39,15,152,1590522694,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590522682,"~/.Xresources"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
+-'  67  33  ~/.vimrc
+|4,39,67,33,1590522678,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/gtk-3.0/settings.ini
-	*	1590458465	0
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
+> /home/NERD_tree_1
+	*	1590524356	0
+	"	16	1
+	.	1	0
+	+	1	0
 
-> ~/.config/gtk-2.0/settings.ini
-	*	1590458355	0
+> ~/Documents/bullet-sanctum/Assets/Scripts/Camera.cs
+	*	1590524351	0
 	"	1	0
 
+> ~/.vimrc
+	*	1590524331	0
+	"	49	0
+	^	57	28
+	.	57	27
+	+	31	21
+	+	31	0
+	+	30	0
+	+	25	29
+	+	31	26
+	+	32	24
+	+	30	33
+	+	22	18
+	+	35	26
+	+	36	0
+	+	42	0
+	+	29	0
+	+	24	0
+	+	25	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	42	0
+	+	41	0
+	+	42	0
+	+	55	28
+	+	30	0
+	+	31	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	12	0
+	+	18	0
+	+	13	0
+	+	15	0
+	+	13	0
+	+	14	1
+	+	15	0
+	+	16	0
+	+	17	1
+	+	18	1
+	+	25	30
+	+	18	1
+	+	36	0
+	+	25	1
+	+	15	0
+	+	44	0
+	+	15	0
+	+	21	1
+	+	23	0
+	+	29	0
+	+	31	0
+	+	33	0
+	+	35	0
+	+	1	0
+	+	2	0
+	+	21	0
+	+	23	0
+	+	25	0
+	+	29	0
+	+	31	0
+	+	33	0
+	+	35	0
+	+	27	38
+	+	58	28
+	+	37	32
+	+	21	0
+	+	23	0
+	+	25	0
+	+	27	0
+	+	29	0
+	+	31	0
+	+	33	0
+	+	35	0
+	+	37	0
+	+	21	0
+	+	23	0
+	+	25	0
+	+	27	0
+	+	29	0
+	+	31	0
+	+	33	0
+	+	35	0
+	+	37	0
+	+	57	11
+	+	78	38
+	+	67	0
+	+	76	35
+	+	67	32
+	+	68	55
+	+	74	34
+	+	67	26
+	+	69	27
+	+	57	26
+	+	129	0
+	+	57	27
+
+> ~/.Xresources
+	*	1590522937	0
+	"	15	152
+	^	15	153
+	.	16	0
+	+	29	20
+	+	30	0
+	+	11	22
+	+	12	22
+	+	11	22
+	+	14	28
+	+	13	1
+	+	14	39
+	+	14	82
+	+	16	0
+	+	14	1
+	+	16	0
+
+> /etc/locale.gen
+	*	1590521697	0
+	"	177	0
+	^	176	0
+	.	176	0
+	+	176	0
+
+> /etc/default/locale
+	*	1590521048	0
+	"	1	0
+
+> /usr/share/vim/vim82/doc/eval.txt
+	*	1590519620	0
+	"	96	7
+
+> /usr/share/vim/vim82/doc/uganda.txt
+	*	1590518845	0
+	"	16	19
+
+> ~/.bashrc
+	*	1590518203	0
+	"	1	0
+	^	16	0
+	.	16	0
+	+	18	26
+	+	20	11
+	+	22	0
+	+	14	31
+	+	41	0
+	+	38	26
+	+	40	5
+	+	39	14
+	+	17	67
+	+	11	0
+	+	8	1
+	+	9	0
+	+	11	0
+	+	10	0
+	+	8	1
+	+	9	34
+	+	8	22
+	+	16	0
+
+> ~/[Vundle] Installer
+	*	1590517774	0
+	"	12	0
+	.	1	0
+	+	12	0
+	+	1	0
+
+> ~/.vim/[Vundle] Installer
+	*	1590516994	0
+	"	11	0
+	.	1	0
+	+	20	0
+	+	11	0
+	+	1	0
+
+> ~/.vim/bundle/Vundle.vim/doc/vundle.txt
+	*	1590516743	0
+	"	22	69
+
+> ~/NERD_tree_1
+	*	1590516332	0
+	"	11	14
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_2
+	*	1590516221	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> /tmp/vJgWwGS/8
+	*	1590516171	0
+	"	49	0
+
 > ~/.config/qtile/config.py
-	*	1590427817	0
-	"	152	19
+	*	1590461818	0
+	"	162	0
 	^	152	20
 	.	152	19
 	+	50	41
@@ -452,6 +748,21 @@ $""
 	+	37	0
 	+	79	67
 	+	152	19
+
+> ~/Documents/bullet-sanctum/.git/MERGE_MSG
+	*	1590460950	0
+	"	1	0
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1590458465	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/.config/gtk-2.0/settings.ini
+	*	1590458355	0
+	"	1	0
 
 > ~/.config/spicetify/config.ini
 	*	1590338552	0
@@ -557,30 +868,6 @@ $""
 	.	2	24
 	+	2	24
 
-> ~/.bashrc
-	*	1590255596	0
-	"	16	0
-	^	16	0
-	.	16	0
-	+	18	26
-	+	20	11
-	+	22	0
-	+	14	31
-	+	41	0
-	+	38	26
-	+	40	5
-	+	39	14
-	+	17	67
-	+	11	0
-	+	8	1
-	+	9	0
-	+	11	0
-	+	10	0
-	+	8	1
-	+	9	34
-	+	8	22
-	+	16	0
-
 > /etc/hosts
 	*	1590255338	0
 	"	6	28
@@ -662,110 +949,6 @@ $""
 	+	2	0
 	+	101	0
 	+	102	0
-
-> ~/.Xresources
-	*	1589946791	0
-	"	9	7
-	^	13	2
-	.	13	1
-	+	28	20
-	+	29	0
-	+	11	22
-	+	12	22
-	+	11	22
-	+	14	28
-	+	13	1
-
-> ~/.vimrc
-	*	1589945791	0
-	"	172	0
-	^	177	11
-	.	1	0
-	+	1	0
-	+	1	10
-	+	1	12
-	+	1	0
-	+	10	0
-	+	93	15
-	+	91	0
-	+	119	20
-	+	108	0
-	+	106	0
-	+	120	0
-	+	122	0
-	+	127	74
-	+	8	0
-	+	6	63
-	+	5	0
-	+	1	63
-	+	7	0
-	+	75	63
-	+	50	23
-	+	50	51
-	+	50	0
-	+	42	10
-	+	128	0
-	+	129	63
-	+	159	19
-	+	160	0
-	+	161	0
-	+	162	12
-	+	163	0
-	+	182	34
-	+	183	0
-	+	179	17
-	+	183	14
-	+	176	20
-	+	177	0
-	+	175	0
-	+	176	11
-	+	177	0
-	+	176	0
-	+	165	23
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	178	0
-	+	176	4
-	+	177	4
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	3	0
-	+	177	10
-	+	176	10
-	+	165	20
-	+	166	21
-	+	176	10
-	+	177	10
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
 
 > /etc/pulse/default.pa
 	*	1589927838	0

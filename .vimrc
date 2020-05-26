@@ -5,6 +5,78 @@
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+" call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+" Git plugin - :Git
+Plugin 'tpope/vim-fugitive'
+" Status line
+Plugin 'vim-airline/vim-airline'
+" Airline themes
+Plugin 'vim-airline/vim-airline-themes'
+" File tree view
+Plugin 'preservim/nerdtree'
+" Fast file navigation using cmd-t
+Plugin 'wincent/command-t'
+" gcc to comment a line
+Plugin 'tpope/vim-commentary'
+" cs, ds, ysiw, yss to add surrounds
+Plugin 'tpope/vim-surround'
+" Base16 colors
+Plugin 'chriskempson/base16-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+" Map ctrl-n to nerdtree
+map <C-n> :NERDTreeToggle<CR>
+" Set airline theme
+let g:airline_theme='badwolf'
+" air-line
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = ''
+let g:airline_right_sep = '«'
+let g:airline_right_sep = ''
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
+set encoding=utf-8
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General

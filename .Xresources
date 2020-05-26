@@ -10,8 +10,9 @@ URxvt*scrollBar: false
 URxvt*scrollBar_right: false
 URxvt*internalBorder: 8
 URxvt*externalBorder: 5
-! URxvt*letterSpace: -1
-URxvt.font: xft:IBM Plex Mono:size=10
+URxvt*letterSpace: 0
+! URxvt.font: xft:IBM Plex Mono:size=10,xft:Inconsolata\ for\ Powerline:pixelsize=12
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
