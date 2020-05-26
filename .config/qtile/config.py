@@ -149,7 +149,7 @@ screens = [
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
+    Drag([mod, "mod1"], "Button1", lazy.window.set_position_floating(),
          start=lazy.window.get_position()),
     Click([mod, "shift"], "Button1", lazy.window.toggle_floating()),
     Drag([mod], "Button3", lazy.window.set_size_floating(),

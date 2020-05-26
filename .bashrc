@@ -14,8 +14,13 @@ alias bash-config='vim ~/.bashrc'
 alias vim-config='vim ~/.vimrc'
 alias qtile-start-config='vim ~/.config/qtile/autostart.sh'
 
+# Modify common commands
+alias vi='vim'
 alias spotify='LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify'
 alias ls='ls --color=auto'
+cd() {
+    command cd $1 && ls
+}
 
 # PS1 Ricing
 PS1='[\u@\h \W]\$ '

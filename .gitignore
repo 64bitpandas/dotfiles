@@ -1,9 +1,11 @@
 **/nohup.out
+**/.git/
 .xsession-errors
 .xsession-errors.old
 Documents/
 Downloads/
 Pictures/
+Unity/
 temp/
 .vscode-oss/
 .ssh/
@@ -30,6 +32,10 @@ temp/
 .config/spicetify/Extensions
 .config/spicetify/Extracted
 .config/firefox/Firefox-Mod
+.config/GIMP
+.config/xarchiver
+.config/UnityHub
+.config/unity3d
 .git-credentials
 .gitconfig
 .bash_history

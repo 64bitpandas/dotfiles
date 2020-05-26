@@ -7,6 +7,7 @@ Summer 2020 Qtile rice. Work in progress!
 
  - **OS:** Arch Linux
  - **DE:** [Qtile](http://www.qtile.org/)
+ - **GTK Theme:** [Fantome](https://github.com/addy-dclxv/gtk-theme-collections)
  - **Greeter:** [Aether](https://github.com/NoiSek/Aether)
  - **Compositor:** [Compton with Tryone's Kawase Blur Patch](https://github.com/tryone144/compton)
  - **Bar:** Polybar (coming soon)
@@ -32,23 +33,57 @@ I have Super mapped to the Windows key on my keyboard.
 | **Applications**           	|                    	|
 |-------------------------	|--------------------	|
 | Super+Shift+S |  Take a screenshot |
-| Super+F  |  File Manager        	|
-| Super+Enter  	|  Terminal       	|
+| Super+F  |  File Manager (thunar)       	|
+| Super+Enter  	|  Terminal (urxvt)     	|
 | Super+G             	|  Firefox       	|
-| Super+C             	|  vscode       	|
+| Super+C             	|  vscode (code)      	|
 | Super+Space           	|  dmenu    	|
 
 
 | **Power Management**        	|                    	|
 |-------------------------	|--------------------	|
 | Super+L                 	| Lock               	|
-| Super+Shift+L                 	| Suspend              	|
-| Super+Ctrl+Alt+Shift+L                 	| Shut Down           	|
+| Super+Shift+L             | Suspend              	|
+
+## What's Included
+
+Here's an inexhaustive list of my modifications:
+
+### Compton
+My config file is at `.config/compton.conf`. The main change I made is to set custom window opacities based on the window name. If you would like to add more blurry windows, use `xprop` to discover the window name or class and add it to the `opacity-rule` list.
+
+### Qtile
+**Layouts:** I've enabled three layouts, but you can easily change this in `.config/qtile/config.py`. Press Super-Tab to switch between layouts.
+ - **Max:** Standard fullscreen layout where only one window will show at a time. Press Super+J/K to cycle windows.
+ - **MonadTall:** One large window on the left half of the screen; all the other windows are equally sized on the right half.
+ - **MonadTall:** One large window on the top half of the screen; all the other windows are equally sized on the bottom half.
+
+**Autostart:** Scripts that run on startup are found in `.config/qtile/autostart.sh`.
+
+**Windows:** I've switched away from the default asdfuiop scheme in favor of number keys (12345). Press Super-(number) to switch to that desktop, or Super-Shift-(number) to send the current tab to that desktop.
+
+### Bash
+On startup, bash runs `pfetch` and refreshes the wal color scheme. Pressing the up arrow will use history completion rather than the default behavior. The font I use is IBM Plex Mono. (TODO)
+
+### Vim
+My vimrc is a modified version of [Ultimate Vimrc](https://github.com/amix/vimrc). (TODO)
+
+### Firefox
+For Firefox, I use [this CSS mod](https://github.com/datguypiko/Firefox-Mod) along with [Humble new tab page](https://addons.mozilla.org/en-US/firefox/addon/humble-new-tab/) and [this tab page theme](https://github.com/akshat46/FlyingFox).
+
+### Spotify
+My Spotify config uses [Spicetify](https://github.com/khanhas/spicetify-cli) for custom theming. For colors, I use wal-defined system colors, and for custom CSS I use a modified version of [Gradianto](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Gradianto).
+
+### Aether
+To be added later!
+### Polybar
+To be added later!
+
 
 ## Installation Guide
 
 ### Part 1. Base Install
- 1. Download the Manjaro distro linked above.
+ 1. Download Arch Linux [here](https://www.archlinux.org/download/).
  2. Use a disk imaging tool (like Rufus) to create a live USB. MAKE SURE IT IS ON DD MODE!!!!! (or use the `dd` command)
 
 ### Part 2. Getting the Essentials
@@ -96,30 +131,3 @@ I have Super mapped to the Windows key on my keyboard.
 ### Part 8: Multilanguage Support
   1. Get `ibus`, `ibus-libpinyin`,  `adobe-source-han-sans-cn-fonts`
   3. Run `ibus-setup` to configure languages, then restart for it to take effect
-
-
-**The below are dev notes on how to recreate this config from scratch. If downloading, ignore the below parts and instead simply copy over the .config file from this repo to your home directory and reboot.**
-
- 1. Set up screenshots: Disable default print sequence and use custom script
- 2. Add `plank &` and `opensnap &` and `wal -R &` and `ibus-daemon` to `autostart`
- 3. Change `W-l` to lock instead of minimize
- 4. Disable resize window on W-S-Left/Right
- 5. Replace Windows+Tab to skippy-xd and remove Windows+S (too easy to confuse with ctrl+s)
- 6. Add `<cornerRadius>8</cornerRadius>` to `<theme>` section of rc.xml
- 7. Make suspend and screenshot scripts, remember to chmod!
- 8. Remove `W-space` shortcut
- 9. Base compton config credits: https://github.com/dougmaitelli/dotfiles/blob/master/.config/compton.conf
- 10. Add plank to blur ignore and make vscode more opaque\
- 11. .Xresources for urxvt ricing: `URxvt*font: xft:Source Code Pro Medium:size=16`
- 12.  2. Add to .bashrc and .zshrc: 
-  `
-  export GTK_IM_MODULE=xim
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=xim
-`
-  13. Add `~/.config/polybar/launch-polybar.sh` to autostart
-  14. To get info for any application, run `wmctrl -l` then `obxprop --id 0xSOMETHING`
-  15. Cava tutorial: https://www.devpy.me/how-to-add-a-music-visualizer-to-your-linux-desktop/
-
-
-

@@ -20,12 +20,12 @@
 $""
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1590267803,,"q"
-:w
-|2,0,1590267756,,"w"
 :wq
-|2,0,1590267733,,"wq"
+|2,0,1590427817,,"wq"
+:w
+|2,0,1590427786,,"w"
+:q
+|2,0,1590285977,,"q"
 :q!
 |2,0,1590267034,,"q!"
 :W
@@ -99,260 +99,357 @@ $""
 |3,0,0,1,1,0,1590266080,"    Key([mod], \"space\", lazy.spawn(\"dmenu_run\")),"
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1590267612,""
+|3,1,1,1,1,0,1590282642,""
 "2	LINE	0
-	  control + b:2
-|3,0,2,1,1,0,1590267612,"  control + b:2"
+	]
+|3,0,2,1,1,0,1590282642,"]"
 "3	LINE	0
-	"xterm"
-|3,0,3,1,1,0,1590267611,"\"xterm\""
+	    Key([mod], "s",  lazy.spawn("urxvss"))
+|3,0,3,1,1,0,1590282641,"    Key([mod], \"s\",  lazy.spawn(\"urxvss\"))"
 "4	LINE	0
-	# specify a mouse button
-|3,0,4,1,1,0,1590267611,"# specify a mouse button"
+	    # Screenshot
+|3,0,4,1,1,0,1590282641,"    # Screenshot"
 "5	LINE	0
-	  c:41 + m:0x4
-|3,0,5,1,1,0,1590267610,"  c:41 + m:0x4"
+	    
+|3,0,5,1,1,0,1590282640,"    "
 "6	LINE	0
-	"xterm"
-|3,0,6,1,1,0,1590267610,"\"xterm\""
+	    Key([mod], "m", lazy.layout.shrink()),
+|3,0,6,1,1,0,1590282640,"    Key([mod], \"m\", lazy.layout.shrink()),"
 "7	LINE	0
-	# set directly keycode (here control + f with my keyboard)
-|3,0,7,1,1,0,1590267610,"# set directly keycode (here control + f with my keyboard)"
+	    Key([mod], "i", lazy.layout.grow()),
+|3,0,7,1,1,0,1590282640,"    Key([mod], \"i\", lazy.layout.grow()),"
 "8	LINE	0
-	  control+shift + q
-|3,0,8,1,1,0,1590267608,"  control+shift + q"
+	    # Grow and shrink windows
+|3,0,8,1,1,0,1590282639,"    # Grow and shrink windows"
 "9	LINE	0
-	"xbindkeys_show" 
-|3,0,9,1,1,0,1590267608,"\"xbindkeys_show\" "
+	    
+|3,0,9,1,1,0,1590282639,"    "
 "-	CHAR	0
-	"
-|3,0,36,0,1,0,1590266222,"\""
+	t
+|3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  12  6  ~/.xbindkeysrc
-|4,48,12,6,1590267803,"~/.xbindkeysrc"
-'1  44  18  ~/.xbindkeysrc
-|4,49,44,18,1590267733,"~/.xbindkeysrc"
-'2  44  18  ~/.xbindkeysrc
-|4,50,44,18,1590267733,"~/.xbindkeysrc"
-'3  47  0  ~/.xbindkeysrc
-|4,51,47,0,1590267614,"~/.xbindkeysrc"
-'4  47  0  ~/.xbindkeysrc
-|4,52,47,0,1590267614,"~/.xbindkeysrc"
-'5  47  0  ~/.xbindkeysrc
-|4,53,47,0,1590267614,"~/.xbindkeysrc"
-'6  47  0  ~/.xbindkeysrc
-|4,54,47,0,1590267614,"~/.xbindkeysrc"
-'7  46  6  ~/.xbindkeysrc
-|4,55,46,6,1590267589,"~/.xbindkeysrc"
-'8  44  6  ~/.xbindkeysrc
-|4,56,44,6,1590267589,"~/.xbindkeysrc"
-'9  46  6  ~/.xbindkeysrc
-|4,57,46,6,1590267589,"~/.xbindkeysrc"
+'0  152  19  ~/.config/qtile/config.py
+|4,48,152,19,1590427817,"~/.config/qtile/config.py"
+'1  20  31  ~/.config/spicetify/config.ini
+|4,49,20,31,1590338554,"~/.config/spicetify/config.ini"
+'2  174  0  ~/.config/qtile/config.py
+|4,50,174,0,1590295619,"~/.config/qtile/config.py"
+'3  174  0  ~/.config/qtile/config.py
+|4,51,174,0,1590295619,"~/.config/qtile/config.py"
+'4  79  68  ~/.config/qtile/config.py
+|4,52,79,68,1590285977,"~/.config/qtile/config.py"
+'5  79  68  ~/.config/qtile/config.py
+|4,53,79,68,1590285977,"~/.config/qtile/config.py"
+'6  79  68  ~/.config/qtile/config.py
+|4,54,79,68,1590285977,"~/.config/qtile/config.py"
+'7  79  68  ~/.config/qtile/config.py
+|4,55,79,68,1590285977,"~/.config/qtile/config.py"
+'8  12  6  ~/.xbindkeysrc
+|4,56,12,6,1590267803,"~/.xbindkeysrc"
+'9  44  18  ~/.xbindkeysrc
+|4,57,44,18,1590267733,"~/.xbindkeysrc"
 
 # Jumplist (newest first):
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  174  0  ~/.config/qtile/config.py
+|4,39,174,0,1590295619,"~/.config/qtile/config.py"
+-'  174  0  ~/.config/qtile/config.py
+|4,39,174,0,1590295619,"~/.config/qtile/config.py"
+-'  174  0  ~/.config/qtile/config.py
+|4,39,174,0,1590295619,"~/.config/qtile/config.py"
+-'  3  0  ~/.config/qtile/config.py
+|4,39,3,0,1590294807,"~/.config/qtile/config.py"
+-'  3  0  ~/.config/qtile/config.py
+|4,39,3,0,1590294807,"~/.config/qtile/config.py"
+-'  3  0  ~/.config/qtile/config.py
+|4,39,3,0,1590294807,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590294806,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590294806,"~/.config/qtile/config.py"
+-'  79  68  ~/.config/qtile/config.py
+|4,39,79,68,1590285977,"~/.config/qtile/config.py"
+-'  79  68  ~/.config/qtile/config.py
+|4,39,79,68,1590285977,"~/.config/qtile/config.py"
+-'  79  68  ~/.config/qtile/config.py
+|4,39,79,68,1590285977,"~/.config/qtile/config.py"
+-'  79  68  ~/.config/qtile/config.py
+|4,39,79,68,1590285977,"~/.config/qtile/config.py"
+-'  79  68  ~/.config/qtile/config.py
+|4,39,79,68,1590285977,"~/.config/qtile/config.py"
+-'  37  0  ~/.config/qtile/config.py
+|4,39,37,0,1590282413,"~/.config/qtile/config.py"
+-'  37  0  ~/.config/qtile/config.py
+|4,39,37,0,1590282413,"~/.config/qtile/config.py"
+-'  37  0  ~/.config/qtile/config.py
+|4,39,37,0,1590282413,"~/.config/qtile/config.py"
+-'  37  0  ~/.config/qtile/config.py
+|4,39,37,0,1590282413,"~/.config/qtile/config.py"
+-'  37  0  ~/.config/qtile/config.py
+|4,39,37,0,1590282413,"~/.config/qtile/config.py"
+-'  50  56  ~/.config/qtile/config.py
+|4,39,50,56,1590281884,"~/.config/qtile/config.py"
+-'  50  56  ~/.config/qtile/config.py
+|4,39,50,56,1590281884,"~/.config/qtile/config.py"
+-'  50  56  ~/.config/qtile/config.py
+|4,39,50,56,1590281884,"~/.config/qtile/config.py"
+-'  50  56  ~/.config/qtile/config.py
+|4,39,50,56,1590281884,"~/.config/qtile/config.py"
+-'  50  56  ~/.config/qtile/config.py
+|4,39,50,56,1590281884,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590281765,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590281765,"~/.config/qtile/config.py"
 -'  12  6  ~/.xbindkeysrc
 |4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  12  6  ~/.xbindkeysrc
+|4,39,12,6,1590267803,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
+-'  1  0  ~/.xbindkeysrc
+|4,39,1,0,1590267742,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
 |4,39,1,0,1590267742,"~/.xbindkeysrc"
 -'  44  18  ~/.xbindkeysrc
 |4,39,44,18,1590267733,"~/.xbindkeysrc"
 -'  44  18  ~/.xbindkeysrc
 |4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
+-'  44  18  ~/.xbindkeysrc
+|4,39,44,18,1590267733,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
 |4,39,1,0,1590267711,"~/.xbindkeysrc"
--'  47  0  ~/.xbindkeysrc
-|4,39,47,0,1590267614,"~/.xbindkeysrc"
--'  47  0  ~/.xbindkeysrc
-|4,39,47,0,1590267614,"~/.xbindkeysrc"
--'  47  0  ~/.xbindkeysrc
-|4,39,47,0,1590267614,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267605,"~/.xbindkeysrc"
--'  46  6  ~/.xbindkeysrc
-|4,39,46,6,1590267589,"~/.xbindkeysrc"
--'  46  6  ~/.xbindkeysrc
-|4,39,46,6,1590267589,"~/.xbindkeysrc"
--'  44  6  ~/.xbindkeysrc
-|4,39,44,6,1590267589,"~/.xbindkeysrc"
--'  46  6  ~/.xbindkeysrc
-|4,39,46,6,1590267589,"~/.xbindkeysrc"
+|4,39,1,0,1590267711,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267577,"~/.xbindkeysrc"
--'  45  0  ~/.xbindkeysrc
-|4,39,45,0,1590267525,"~/.xbindkeysrc"
--'  48  0  ~/.xbindkeysrc
-|4,39,48,0,1590267525,"~/.xbindkeysrc"
--'  45  0  ~/.xbindkeysrc
-|4,39,45,0,1590267525,"~/.xbindkeysrc"
--'  48  0  ~/.xbindkeysrc
-|4,39,48,0,1590267525,"~/.xbindkeysrc"
--'  45  0  ~/.xbindkeysrc
-|4,39,45,0,1590267525,"~/.xbindkeysrc"
--'  48  0  ~/.xbindkeysrc
-|4,39,48,0,1590267525,"~/.xbindkeysrc"
--'  48  0  ~/.xbindkeysrc
-|4,39,48,0,1590267525,"~/.xbindkeysrc"
+|4,39,1,0,1590267711,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267519,"~/.xbindkeysrc"
--'  46  17  ~/.xbindkeysrc
-|4,39,46,17,1590267506,"~/.xbindkeysrc"
--'  46  17  ~/.xbindkeysrc
-|4,39,46,17,1590267506,"~/.xbindkeysrc"
+|4,39,1,0,1590267711,"~/.xbindkeysrc"
 -'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267451,"~/.xbindkeysrc"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  160  ~/.config/qtile/config.py
-|4,39,50,160,1590267034,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
--'  50  163  ~/.config/qtile/config.py
-|4,39,50,163,1590266692,"~/.config/qtile/config.py"
+|4,39,1,0,1590267711,"~/.xbindkeysrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/qtile/config.py
+	*	1590427817	0
+	"	152	19
+	^	152	20
+	.	152	19
+	+	50	41
+	+	94	24
+	+	81	5
+	+	75	4
+	+	37	20
+	+	58	60
+	+	37	20
+	+	37	15
+	+	37	44
+	+	115	38
+	+	128	4
+	+	124	17
+	+	75	28
+	+	115	32
+	+	115	54
+	+	116	28
+	+	126	8
+	+	128	0
+	+	127	31
+	+	53	41
+	+	54	5
+	+	55	5
+	+	55	74
+	+	58	4
+	+	57	0
+	+	50	4
+	+	61	33
+	+	58	29
+	+	57	4
+	+	57	0
+	+	58	4
+	+	58	0
+	+	54	4
+	+	37	29
+	+	37	37
+	+	38	38
+	+	163	41
+	+	135	63
+	+	37	39
+	+	37	0
+	+	37	37
+	+	118	0
+	+	75	0
+	+	80	0
+	+	75	0
+	+	80	4
+	+	86	0
+	+	80	0
+	+	182	26
+	+	31	16
+	+	29	45
+	+	179	23
+	+	39	43
+	+	39	47
+	+	39	0
+	+	39	16
+	+	152	0
+	+	39	40
+	+	42	0
+	+	41	47
+	+	39	44
+	+	39	0
+	+	41	21
+	+	39	39
+	+	40	21
+	+	37	0
+	+	37	4
+	+	37	0
+	+	38	0
+	+	37	161
+	+	37	50
+	+	50	4
+	+	50	0
+	+	37	0
+	+	72	47
+	+	90	9
+	+	93	8
+	+	56	0
+	+	37	42
+	+	37	0
+	+	79	67
+	+	152	19
+
+> ~/.config/spicetify/config.ini
+	*	1590338552	0
+	"	20	31
+	^	20	32
+	.	19	31
+	+	30	31
+	+	23	31
+	+	19	31
 
 > ~/.xbindkeysrc
 	*	1590267802	0
@@ -364,86 +461,6 @@ $""
 	+	45	0
 	+	46	0
 	+	44	6
-
-> ~/.config/qtile/config.py
-	*	1590266332	0
-	"	50	160
-	^	50	161
-	.	50	161
-	+	69	41
-	+	115	24
-	+	102	5
-	+	99	4
-	+	54	20
-	+	81	60
-	+	54	20
-	+	53	15
-	+	54	44
-	+	136	38
-	+	149	4
-	+	145	17
-	+	99	28
-	+	136	32
-	+	136	54
-	+	137	28
-	+	147	8
-	+	149	0
-	+	148	31
-	+	75	41
-	+	76	5
-	+	77	5
-	+	78	5
-	+	81	4
-	+	80	0
-	+	72	4
-	+	84	33
-	+	81	29
-	+	80	4
-	+	80	0
-	+	81	4
-	+	81	0
-	+	76	4
-	+	53	29
-	+	55	37
-	+	56	38
-	+	184	41
-	+	156	63
-	+	46	39
-	+	47	0
-	+	48	0
-	+	47	37
-	+	139	0
-	+	99	0
-	+	101	0
-	+	99	0
-	+	101	4
-	+	107	0
-	+	101	0
-	+	203	26
-	+	31	16
-	+	29	45
-	+	200	23
-	+	57	43
-	+	57	47
-	+	57	0
-	+	57	16
-	+	173	0
-	+	57	40
-	+	60	0
-	+	59	47
-	+	57	44
-	+	57	0
-	+	59	21
-	+	57	39
-	+	58	21
-	+	52	0
-	+	51	0
-	+	54	4
-	+	50	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	50	161
 
 > ~/.config/qtile/autostart.sh
 	*	1590264562	0
