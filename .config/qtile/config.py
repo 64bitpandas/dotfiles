@@ -93,10 +93,16 @@ for i in groups:
         Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
     ])
 
+layout_theme = {
+    "margin": 5,
+    "border_focus": '#ffffff',
+    "border_normal": '#3492e7'
+}
+
 layouts = [
-    layout.MonadTall(margin=5, border_focus='#ffffff', border_normal='#3492e7'),
+    layout.MonadTall(**layout_theme),
     layout.Max(),
-    layout.MonadWide(margin=5, border_focus='#ffffff', border_normal='#3492e7'),
+    layout.MonadWide(**layout_theme),
     # layout.Stack(num_stacks=2),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),

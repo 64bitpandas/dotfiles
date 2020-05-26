@@ -21,13 +21,13 @@ $""
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590427817,,"wq"
+|2,0,1590458483,,"wq"
 :w
-|2,0,1590427786,,"w"
+|2,0,1590458465,,"w"
+:q!
+|2,0,1590458357,,"q!"
 :q
 |2,0,1590285977,,"q"
-:q!
-|2,0,1590267034,,"q!"
 :W
 |2,0,1590263217,,"W"
 :ww
@@ -129,230 +129,241 @@ $""
 |3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  152  19  ~/.config/qtile/config.py
-|4,48,152,19,1590427817,"~/.config/qtile/config.py"
-'1  20  31  ~/.config/spicetify/config.ini
-|4,49,20,31,1590338554,"~/.config/spicetify/config.ini"
-'2  174  0  ~/.config/qtile/config.py
-|4,50,174,0,1590295619,"~/.config/qtile/config.py"
-'3  174  0  ~/.config/qtile/config.py
-|4,51,174,0,1590295619,"~/.config/qtile/config.py"
-'4  79  68  ~/.config/qtile/config.py
-|4,52,79,68,1590285977,"~/.config/qtile/config.py"
-'5  79  68  ~/.config/qtile/config.py
-|4,53,79,68,1590285977,"~/.config/qtile/config.py"
-'6  79  68  ~/.config/qtile/config.py
-|4,54,79,68,1590285977,"~/.config/qtile/config.py"
-'7  79  68  ~/.config/qtile/config.py
-|4,55,79,68,1590285977,"~/.config/qtile/config.py"
-'8  12  6  ~/.xbindkeysrc
-|4,56,12,6,1590267803,"~/.xbindkeysrc"
-'9  44  18  ~/.xbindkeysrc
-|4,57,44,18,1590267733,"~/.xbindkeysrc"
+'0  1  21  ~/.config/gtk-3.0/settings.ini
+|4,48,1,21,1590458483,"~/.config/gtk-3.0/settings.ini"
+'1  1  0  ~/.config/gtk-2.0/settings.ini
+|4,49,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
+'2  1  0  ~/.config/gtk-2.0/settings.ini
+|4,50,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
+'3  1  0  ~/.config/gtk-3.0/settings.ini
+|4,51,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
+'4  152  19  ~/.config/qtile/config.py
+|4,52,152,19,1590427817,"~/.config/qtile/config.py"
+'5  20  31  ~/.config/spicetify/config.ini
+|4,53,20,31,1590338554,"~/.config/spicetify/config.ini"
+'6  174  0  ~/.config/qtile/config.py
+|4,54,174,0,1590295619,"~/.config/qtile/config.py"
+'7  174  0  ~/.config/qtile/config.py
+|4,55,174,0,1590295619,"~/.config/qtile/config.py"
+'8  79  68  ~/.config/qtile/config.py
+|4,56,79,68,1590285977,"~/.config/qtile/config.py"
+'9  79  68  ~/.config/qtile/config.py
+|4,57,79,68,1590285977,"~/.config/qtile/config.py"
 
 # Jumplist (newest first):
+-'  1  21  ~/.config/gtk-3.0/settings.ini
+|4,39,1,21,1590458483,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-2.0/settings.ini
+|4,39,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
+-'  1  0  ~/.config/gtk-2.0/settings.ini
+|4,39,1,0,1590458357,"~/.config/gtk-2.0/settings.ini"
+-'  1  0  ~/.config/gtk-2.0/settings.ini
+|4,39,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
+-'  1  0  ~/.config/gtk-2.0/settings.ini
+|4,39,1,0,1590458217,"~/.config/gtk-2.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
+-'  1  0  ~/.config/gtk-3.0/settings.ini
+|4,39,1,0,1590458208,"~/.config/gtk-3.0/settings.ini"
 -'  152  19  ~/.config/qtile/config.py
 |4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  152  19  ~/.config/qtile/config.py
+|4,39,152,19,1590427817,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590427648,"~/.config/qtile/config.py"
 -'  1  0  ~/.config/qtile/config.py
 |4,39,1,0,1590427648,"~/.config/qtile/config.py"
 -'  20  31  ~/.config/spicetify/config.ini
 |4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
 -'  20  31  ~/.config/spicetify/config.ini
 |4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
+-'  20  31  ~/.config/spicetify/config.ini
+|4,39,20,31,1590338554,"~/.config/spicetify/config.ini"
 -'  1  0  ~/.config/spicetify/config.ini
 |4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
 -'  1  0  ~/.config/spicetify/config.ini
 |4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
--'  174  0  ~/.config/qtile/config.py
-|4,39,174,0,1590295619,"~/.config/qtile/config.py"
--'  174  0  ~/.config/qtile/config.py
-|4,39,174,0,1590295619,"~/.config/qtile/config.py"
--'  174  0  ~/.config/qtile/config.py
-|4,39,174,0,1590295619,"~/.config/qtile/config.py"
--'  3  0  ~/.config/qtile/config.py
-|4,39,3,0,1590294807,"~/.config/qtile/config.py"
--'  3  0  ~/.config/qtile/config.py
-|4,39,3,0,1590294807,"~/.config/qtile/config.py"
--'  3  0  ~/.config/qtile/config.py
-|4,39,3,0,1590294807,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590294806,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590294806,"~/.config/qtile/config.py"
--'  79  68  ~/.config/qtile/config.py
-|4,39,79,68,1590285977,"~/.config/qtile/config.py"
--'  79  68  ~/.config/qtile/config.py
-|4,39,79,68,1590285977,"~/.config/qtile/config.py"
--'  79  68  ~/.config/qtile/config.py
-|4,39,79,68,1590285977,"~/.config/qtile/config.py"
--'  79  68  ~/.config/qtile/config.py
-|4,39,79,68,1590285977,"~/.config/qtile/config.py"
--'  79  68  ~/.config/qtile/config.py
-|4,39,79,68,1590285977,"~/.config/qtile/config.py"
--'  37  0  ~/.config/qtile/config.py
-|4,39,37,0,1590282413,"~/.config/qtile/config.py"
--'  37  0  ~/.config/qtile/config.py
-|4,39,37,0,1590282413,"~/.config/qtile/config.py"
--'  37  0  ~/.config/qtile/config.py
-|4,39,37,0,1590282413,"~/.config/qtile/config.py"
--'  37  0  ~/.config/qtile/config.py
-|4,39,37,0,1590282413,"~/.config/qtile/config.py"
--'  37  0  ~/.config/qtile/config.py
-|4,39,37,0,1590282413,"~/.config/qtile/config.py"
--'  50  56  ~/.config/qtile/config.py
-|4,39,50,56,1590281884,"~/.config/qtile/config.py"
--'  50  56  ~/.config/qtile/config.py
-|4,39,50,56,1590281884,"~/.config/qtile/config.py"
--'  50  56  ~/.config/qtile/config.py
-|4,39,50,56,1590281884,"~/.config/qtile/config.py"
--'  50  56  ~/.config/qtile/config.py
-|4,39,50,56,1590281884,"~/.config/qtile/config.py"
--'  50  56  ~/.config/qtile/config.py
-|4,39,50,56,1590281884,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590281765,"~/.config/qtile/config.py"
--'  1  0  ~/.config/qtile/config.py
-|4,39,1,0,1590281765,"~/.config/qtile/config.py"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  12  6  ~/.xbindkeysrc
-|4,39,12,6,1590267803,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267742,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  44  18  ~/.xbindkeysrc
-|4,39,44,18,1590267733,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267711,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267711,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267711,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267711,"~/.xbindkeysrc"
--'  1  0  ~/.xbindkeysrc
-|4,39,1,0,1590267711,"~/.xbindkeysrc"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
+-'  1  0  ~/.config/spicetify/config.ini
+|4,39,1,0,1590338488,"~/.config/spicetify/config.ini"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/gtk-3.0/settings.ini
+	*	1590458465	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/.config/gtk-2.0/settings.ini
+	*	1590458355	0
+	"	1	0
 
 > ~/.config/qtile/config.py
 	*	1590427817	0
