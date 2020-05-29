@@ -1,6 +1,8 @@
 [Added Associations]
 text/css=code-oss.desktop;vim.desktop;
-text/plain=unityhub.desktop;
+text/plain=code-oss.desktop;vim.desktop;unityhub.desktop;
+image/png=gimp.desktop;
+application/pdf=org.gnome.Evince.desktop;
 
 [Default Applications]
 text/html=firefox.desktop

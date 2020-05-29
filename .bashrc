@@ -19,11 +19,14 @@ alias vi='vim'
 alias spotify='LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify'
 alias ls='ls --color=auto'
 cd() {
-    command cd $1 && ls
+    command cd "$1" && ls
 }
 
 # PS1 Ricing
 PS1='[\u@\h \W]\$ '
+
+# Odrive
+alias odrive='~/.odrive-agent/bin/odrive'
 
 
 # HSTR configuration - add this to ~/.bashrc
@@ -43,3 +46,8 @@ if [[ $- =~ .*i.* ]]; then bind '"\C-xk": "\C-a hstr -k \C-j"'; fi
 # Run some startup commands
 wal -R -q -a 90
 pfetch
+
+# SBP prompt
+sbp_path=/home/ben/temp/sbp
+source /home/ben/temp/sbp/sbp.bash
+sbp color default-256

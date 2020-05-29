@@ -21,13 +21,15 @@ $""
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1590524357,,"q"
+|2,0,1590780718,,"q"
+:wq
+|2,0,1590727785,,"wq"
+:w
+|2,0,1590727189,,"w"
 :q!
 |2,0,1590524353,,"q!"
 :cd ..
 |2,0,1590524327,,"cd .."
-:wq
-|2,0,1590524272,,"wq"
 :AirlineTheme badwolf
 |2,0,1590524220,,"AirlineTheme badwolf"
 :AirlineTheme wombat
@@ -56,8 +58,6 @@ $""
 |2,0,1590523991,,"AirlineTheme deus"
 :source %
 |2,0,1590523852,,"source %"
-:w
-|2,0,1590523850,,"w"
 :s
 |2,0,1590523826,,"s"
 :W!
@@ -187,267 +187,376 @@ $""
 
 # Registers:
 "0	LINE	0
-	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-	" => General
-	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-|3,0,0,1,3,0,1590515416,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\" => General","\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+	      "95:class_g *= 'code-oss'",
+|3,0,0,1,1,0,1590702651,"      \"95:class_g *= 'code-oss'\","
 ""1	LINE	0
+	source /home/ben/temp/sbp/sbp.bash
+|3,1,1,1,1,0,1590726503,"source /home/ben/temp/sbp/sbp.bash"
+"2	LINE	0
+	sbp_path=/home/ben/temp/sbp
+|3,0,2,1,1,0,1590726503,"sbp_path=/home/ben/temp/sbp"
+"3	LINE	0
 	""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 	" 64bitpandas .vimrc
-|3,1,1,1,2,0,1590516904,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\" 64bitpandas .vimrc"
-"2	LINE	0
-	Plugin 'file:///home/gmarik/path/to/plugin'
-|3,0,2,1,1,0,1590516534,"Plugin 'file:///home/gmarik/path/to/plugin'"
-"3	LINE	0
-	" git repos on your local machinedd (i.e. when working on your own plugin)
-|3,0,3,1,1,0,1590516534,"\" git repos on your local machinedd (i.e. when working on your own plugin)"
+|3,0,3,1,2,0,1590516904,"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"","\" 64bitpandas .vimrc"
 "4	LINE	0
-	autocmd vimenter * NERDTree
-|3,0,4,1,1,0,1590516232,"autocmd vimenter * NERDTree"
+	Plugin 'file:///home/gmarik/path/to/plugin'
+|3,0,4,1,1,0,1590516534,"Plugin 'file:///home/gmarik/path/to/plugin'"
 "5	LINE	0
-	" Plugin 'ascenator/L9', {'name': 'newL9'}
-|3,0,5,1,1,0,1590516075,"\" Plugin 'ascenator/L9', {'name': 'newL9'}"
+	" git repos on your local machinedd (i.e. when working on your own plugin)
+|3,0,5,1,1,0,1590516534,"\" git repos on your local machinedd (i.e. when working on your own plugin)"
 "6	LINE	0
-	" different version somewhere else.
-|3,0,6,1,1,0,1590516075,"\" different version somewhere else."
+	autocmd vimenter * NERDTree
+|3,0,6,1,1,0,1590516232,"autocmd vimenter * NERDTree"
 "7	LINE	0
-	" Install L9 and avoid a Naming conflict if you've already installed a
-|3,0,7,1,1,0,1590516074,"\" Install L9 and avoid a Naming conflict if you've already installed a"
+	" Plugin 'ascenator/L9', {'name': 'newL9'}
+|3,0,7,1,1,0,1590516075,"\" Plugin 'ascenator/L9', {'name': 'newL9'}"
 "8	LINE	0
-	" Pass the path to set the runtimepath properly.
-|3,0,8,1,1,0,1590516074,"\" Pass the path to set the runtimepath properly."
+	" different version somewhere else.
+|3,0,8,1,1,0,1590516075,"\" different version somewhere else."
 "9	LINE	0
-	" The sparkup vim script is in a subdirectory of this repo called vim.
-|3,0,9,1,1,0,1590516073,"\" The sparkup vim script is in a subdirectory of this repo called vim."
+	" Install L9 and avoid a Naming conflict if you've already installed a
+|3,0,9,1,1,0,1590516074,"\" Install L9 and avoid a Naming conflict if you've already installed a"
 "-	CHAR	0
 	t
 |3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  16  1  /home/NERD_tree_1
-|4,48,16,1,1590524357,"/home/NERD_tree_1"
-'1  57  27  ~/.vimrc
-|4,49,57,27,1590524272,"~/.vimrc"
-'2  57  27  ~/.vimrc
-|4,50,57,27,1590524272,"~/.vimrc"
-'3  15  152  ~/.Xresources
-|4,51,15,152,1590523180,"~/.Xresources"
-'4  15  152  ~/.Xresources
-|4,52,15,152,1590522694,"~/.Xresources"
-'5  14  191  ~/.Xresources
-|4,53,14,191,1590522694,"~/.Xresources"
-'6  15  152  ~/.Xresources
-|4,54,15,152,1590522694,"~/.Xresources"
-'7  67  33  ~/.vimrc
-|4,55,67,33,1590522678,"~/.vimrc"
-'8  67  33  ~/.vimrc
-|4,56,67,33,1590522678,"~/.vimrc"
-'9  67  33  ~/.vimrc
-|4,57,67,33,1590522678,"~/.vimrc"
+'0  1  0  ~/.Xresources
+|4,48,1,0,1590774518,"~/.Xresources"
+'1  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,49,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+'2  1  0  ~/default-256.bash
+|4,50,1,0,1590727815,"~/default-256.bash"
+'3  53  20  ~/.bashrc
+|4,51,53,20,1590727785,"~/.bashrc"
+'4  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,52,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+'5  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,53,15,10,1590727668,"~/temp/sbp/themes/colors/default-256.bash"
+'6  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,54,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
+'7  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,55,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
+'8  15  11  ~/temp/sbp/themes/colors/default-256.bash
+|4,56,15,11,1590727611,"~/temp/sbp/themes/colors/default-256.bash"
+'9  15  11  ~/temp/sbp/themes/colors/default-256.bash
+|4,57,15,11,1590727611,"~/temp/sbp/themes/colors/default-256.bash"
 
 # Jumplist (newest first):
--'  16  1  /home/NERD_tree_1
-|4,39,16,1,1590524357,"/home/NERD_tree_1"
--'  59  4  /home/NERD_tree_1
-|4,39,59,4,1590524344,"/home/NERD_tree_1"
--'  1  1  /home/NERD_tree_1
-|4,39,1,1,1590524344,"/home/NERD_tree_1"
--'  57  27  ~/.vimrc
-|4,39,57,27,1590524272,"~/.vimrc"
--'  57  27  ~/.vimrc
-|4,39,57,27,1590524272,"~/.vimrc"
--'  129  6  ~/.vimrc
-|4,39,129,6,1590524130,"~/.vimrc"
--'  129  6  ~/.vimrc
-|4,39,129,6,1590524130,"~/.vimrc"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590523180,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590523180,"~/.Xresources"
--'  255  0  ~/.vimrc
-|4,39,255,0,1590523083,"~/.vimrc"
--'  255  0  ~/.vimrc
-|4,39,255,0,1590523083,"~/.vimrc"
--'  39  0  ~/.vimrc
-|4,39,39,0,1590523081,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1590523081,"~/.vimrc"
--'  39  0  ~/.vimrc
-|4,39,39,0,1590523081,"~/.vimrc"
--'  4  0  ~/.vimrc
-|4,39,4,0,1590523081,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1590523077,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1590523077,"~/.vimrc"
 -'  1  0  ~/.Xresources
-|4,39,1,0,1590522719,"~/.Xresources"
+|4,39,1,0,1590774518,"~/.Xresources"
 -'  1  0  ~/.Xresources
-|4,39,1,0,1590522719,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  14  191  ~/.Xresources
-|4,39,14,191,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  14  191  ~/.Xresources
-|4,39,14,191,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  15  152  ~/.Xresources
-|4,39,15,152,1590522694,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590522682,"~/.Xresources"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
--'  67  33  ~/.vimrc
-|4,39,67,33,1590522678,"~/.vimrc"
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  53  20  ~/.bashrc
+|4,39,53,20,1590727785,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590727768,"~/.bashrc"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/temp/sbp/themes/colors/default-256.bash
+|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
 
 # History of marks within files (newest to oldest):
+
+> ~/.Xresources
+	*	1590774517	0
+	"	1	0
+	^	15	153
+	.	16	0
+	+	29	20
+	+	30	0
+	+	11	22
+	+	12	22
+	+	11	22
+	+	14	28
+	+	13	1
+	+	14	39
+	+	14	82
+	+	16	0
+	+	14	1
+	+	16	0
+
+> ~/Documents/bullet-sanctum/.Xresources
+	*	1590774482	0
+	"	1	0
+
+> ~/default-256.bash
+	*	1590727815	0
+	"	1	0
+
+> ~/.bashrc
+	*	1590727785	0
+	"	53	20
+	^	53	21
+	.	53	20
+	+	18	26
+	+	20	11
+	+	22	0
+	+	14	31
+	+	41	0
+	+	38	26
+	+	40	5
+	+	39	14
+	+	17	67
+	+	11	0
+	+	8	1
+	+	9	0
+	+	11	0
+	+	10	0
+	+	8	1
+	+	9	34
+	+	8	22
+	+	16	0
+	+	51	0
+	+	50	11
+	+	53	20
+
+> ~/temp/sbp/themes/colors/default-256.bash
+	*	1590727713	0
+	"	15	10
+	^	15	11
+	.	15	10
+	+	3	10
+	+	4	11
+	+	5	11
+	+	3	11
+	+	6	10
+	+	7	10
+	+	6	10
+	+	7	10
+	+	6	10
+	+	7	10
+	+	6	10
+	+	7	10
+	+	15	11
+	+	16	0
+	+	15	10
+
+> ~/.config/sbp/settings.conf
+	*	1590726895	0
+	"	23	0
+
+> ~/.config/compton.conf
+	*	1590722610	0
+	"	152	25
+	^	127	37
+	.	127	36
+	+	255	1
+	+	123	8
+	+	126	8
+	+	128	9
+	+	147	5
+	+	126	0
+	+	128	8
+	+	126	8
+	+	128	33
+	+	129	27
+	+	126	8
+	+	123	8
+	+	127	36
+
+> ~/compton.conf
+	*	1590702606	0
+	"	1	0
+
+> ~/Documents/bullet-sanctum/.git/MERGE_MSG
+	*	1590646020	0
+	"	1	0
+
+> ~/temp/watchfile
+	*	1590529608	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	5	7
+	+	1	15
 
 > /home/NERD_tree_1
 	*	1590524356	0
@@ -565,24 +674,6 @@ $""
 	+	129	0
 	+	57	27
 
-> ~/.Xresources
-	*	1590522937	0
-	"	15	152
-	^	15	153
-	.	16	0
-	+	29	20
-	+	30	0
-	+	11	22
-	+	12	22
-	+	11	22
-	+	14	28
-	+	13	1
-	+	14	39
-	+	14	82
-	+	16	0
-	+	14	1
-	+	16	0
-
 > /etc/locale.gen
 	*	1590521697	0
 	"	177	0
@@ -601,30 +692,6 @@ $""
 > /usr/share/vim/vim82/doc/uganda.txt
 	*	1590518845	0
 	"	16	19
-
-> ~/.bashrc
-	*	1590518203	0
-	"	1	0
-	^	16	0
-	.	16	0
-	+	18	26
-	+	20	11
-	+	22	0
-	+	14	31
-	+	41	0
-	+	38	26
-	+	40	5
-	+	39	14
-	+	17	67
-	+	11	0
-	+	8	1
-	+	9	0
-	+	11	0
-	+	10	0
-	+	8	1
-	+	9	34
-	+	8	22
-	+	16	0
 
 > ~/[Vundle] Installer
 	*	1590517774	0
@@ -749,10 +816,6 @@ $""
 	+	79	67
 	+	152	19
 
-> ~/Documents/bullet-sanctum/.git/MERGE_MSG
-	*	1590460950	0
-	"	1	0
-
 > ~/.config/gtk-3.0/settings.ini
 	*	1590458465	0
 	"	1	21
@@ -808,24 +871,6 @@ $""
 	+	762	2
 	+	1	4
 	+	829	0
-
-> ~/.config/compton.conf
-	*	1590263225	0
-	"	129	1
-	^	123	9
-	.	123	8
-	+	254	1
-	+	123	8
-	+	126	8
-	+	127	9
-	+	146	5
-	+	126	0
-	+	127	8
-	+	126	8
-	+	127	33
-	+	128	27
-	+	126	8
-	+	123	8
 
 > ~/user.css
 	*	1590260485	0

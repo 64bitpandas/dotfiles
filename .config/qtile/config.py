@@ -27,6 +27,7 @@
 from libqtile.config import Key, Screen, Group, Drag, Click
 from libqtile.lazy import lazy
 from libqtile import layout, bar, widget, hook
+# from libqtile.widget import cpu
 import os
 import subprocess
 from typing import List  # noqa: F401
@@ -122,18 +123,125 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+colors = [
+    "#36393f", # 0 Gray background color
+    "#ffffff", # 1 White
+    "#4bb3ee", # 2 Blue
+    "#00b067",  # 3 Green
+    "#c5cfd1", # 4 Blue-gray
+    "#78a0b3",  # 5 Faded blue
+    "#78b39b",  # 6 Faded green
+    "#ff6060" # 7 testing color
+]
+
+# base config for powerline arrows
+pl_arrows = {
+    "padding": 0,
+    "width": 32,
+    "fontsize": 65,
+}
+
 screens = [
     Screen(
-        bottom=bar.Bar(
-            [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
-                widget.Prompt(),
-                widget.WindowName(),
-                widget.TextBox("default config", name="default"),
-                widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
-                widget.QuickExit(),
+        top=bar.Bar(
+            [   
+                widget.Sep(
+                    linewidth = 0,
+                    padding = 6,
+                    background = colors[0]
+                ),
+                widget.GroupBox(
+                    active = colors[1],
+                    inactive = colors[4],
+                    rounded = False,
+                    margin_x = 0,
+                    padding = 5,
+                    border_width = 1,
+                    highlight_method = "block",
+                    this_current_screen_border = colors[3],
+                    this_screen_border = colors[6],
+                    other_current_screen_border = colors[2],
+                    other_screen_border = colors[5],
+                    background = colors[0]
+                ),
+                widget.Sep(
+                    linewidth = 0,
+                    padding = 6,
+                    background = colors[0]
+                ),
+                widget.WindowName(
+                    background=colors[0]
+                ),
+                widget.Prompt(
+                    background = colors[0]
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[2],
+                    background=colors[0],
+                ),
+                widget.Net(
+                    interface='enp27s0',
+                    padding=10,
+                    background = colors[2],
+                    format='{down} ↓↑ {up}'
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[3],
+                    background=colors[2],
+                ),
+                widget.CurrentLayout(
+                    background=colors[3],
+                    margin=0
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[2],
+                    background=colors[3],
+                ),
+                widget.Memory(
+                    background=colors[2]
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[3],
+                    background=colors[2],
+                ),
+                widget.CPUGraph(
+                    type='box',
+                    background=colors[3],
+                    border_width=0,
+                    graph_color=colors[1],
+                    samples=25,
+                    frequency=1
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[0],
+                    background=colors[3],
+                ),
+                widget.Systray(background=colors[0]),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[4],
+                    background=colors[0],
+                ),
+                widget.Clock(
+                    format='%Y-%m-%d %a %I:%M %p',
+                    foreground='000000',
+                    background=colors[4]),
+                widget.Sep(
+                    linewidth=0,
+                    padding=6,
+                    background=colors[4]
+                ),
             ],
             24,
         ),
@@ -141,7 +249,7 @@ screens = [
         wallpaper_mode='fill'
     ),
    Screen(
-        bottom=bar.Bar(
+        top=bar.Bar(
             [
                 widget.CurrentLayout(),
                 widget.GroupBox(),
