@@ -103,13 +103,13 @@ layout_theme = {
 layouts = [
     layout.MonadTall(**layout_theme),
     layout.Max(),
-    layout.MonadWide(**layout_theme),
+    # layout.MonadWide(**layout_theme),
     # layout.Stack(num_stacks=2),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     # layout.Columns(),
     # layout.Matrix(),
-    # layout.RatioTile(),
+    layout.RatioTile(**layout_theme),
     # layout.Tile(),
     # layout.TreeTab(),
     # layout.VerticalTile(),

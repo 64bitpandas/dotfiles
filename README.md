@@ -3,7 +3,7 @@
 Summer 2020 Qtile rice. Work in progress!
 
 <!-- REMEMBER TO EDIT THIS!!! -->
-![Screenshot (coming soon!)](screenshot.png)
+![Screenshot](wallpapers/demo.png)
 
  - **OS:** Arch Linux
  - **DE:** [Qtile](http://www.qtile.org/)
@@ -76,8 +76,6 @@ My Spotify config uses [Spicetify](https://github.com/khanhas/spicetify-cli) for
 
 ### Aether
 To be added later!
-### Polybar
-To be added later!
 
 
 ## Installation Guide
@@ -89,8 +87,14 @@ To be added later!
 ### Part 2. Getting the Essentials
  1. Get yay: `git clone https://aur.archlinux.org/yay.git`, then `cd yay` then  `makepkg -si`
  2. Update packages: `yay -Syyu`
- 3. Basic programs: `visual-studio-code-bin`. `discord`, `jdk8`, `rxvt-unicode`, `python-pip`, `nodejs`, `npm`, `adobe-source-code-pro-fonts`, `ttf-material-icons-git`
- 4. If necessary, customize grub order using `grub-customizer` and set EFI boot order using `efibootmgr` and `efibootmgr -o #1,#2,#3......` (If this doesn't work, the BIOS might be overriding it. Check the settings there)
+ 3. If necessary, customize grub order using `grub-customizer` and set EFI boot order using `efibootmgr` and `efibootmgr -o #1,#2,#3......` (If this doesn't work, the BIOS might be overriding it. Check the settings there)
+
+### Part 7. Installing the config files
+ 1. Clone the repository. `git clone https://github.com/64bitpandas/dotfiles`
+ 1. Run `cd dotfiles` then `git checkout summersky`.
+ 1. Move the files into your `$HOME` directory.
+ 1. Set the themes using `lxappearance` (Fantome with Papirus icons).
+ 1. Enjoy the beautiful desktop :D
 
 ### Part 3. Basic Ricing/Desktop Necessities
  1. Grab opensnap for snappy windows
@@ -112,8 +116,7 @@ To be added later!
 ### Part 5. GTK/Openbox Themes
  1. git clone https://github.com/addy-dclxv/gtk-theme-collections ~/.themes
  2. git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
- 2. Set theme and fonts using Manjaro appearance panel (press the Super key -> Settings -> Appearance)
- 3. Set openbox themes using `obconf`
+ 2. Set theme and fonts using `lxappearance`.
 
 ### Part 6. Pywal and Color Schemes
  1. Set color scheme and wallpaper: `wal -i path/to/image.png -b "#260422 -a 50` (extra parameters are for blur, adjust accordingly)
@@ -121,12 +124,7 @@ To be added later!
  3. Run `nitrogen` and set the wallpaper to the same one from the `wal` command
  4. Get [vscode-wal](https://github.com/Bluedrack28/vscode-wal) and follow the instructions for vscode color schemes
 
-### Part 7. Installing the config files
- 1. Clone the repository. `git clone https://github.com/64bitpandas/dotfiles`
- 1. Run `cd dotfiles && git checkout manjaro-summer`
- 1. Run a `cp -r` to copy `.config` to `~/`
- 1. Copy .Xresources and .zshrc to `~/`
- 1. Enjoy the beautiful desktop :D
+
 
 ### Part 8: Multilanguage Support
   1. Get `ibus`, `ibus-libpinyin`,  `adobe-source-han-sans-cn-fonts`

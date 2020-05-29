@@ -20,14 +20,14 @@
 $""
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1590780718,,"q"
 :wq
-|2,0,1590727785,,"wq"
+|2,0,1590785156,,"wq"
+:q
+|2,0,1590785130,,"q"
+:q!
+|2,0,1590781920,,"q!"
 :w
 |2,0,1590727189,,"w"
-:q!
-|2,0,1590524353,,"q!"
 :cd ..
 |2,0,1590524327,,"cd .."
 :AirlineTheme badwolf
@@ -222,28 +222,64 @@ $""
 |3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  1  0  ~/.Xresources
-|4,48,1,0,1590774518,"~/.Xresources"
-'1  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,49,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
-'2  1  0  ~/default-256.bash
-|4,50,1,0,1590727815,"~/default-256.bash"
-'3  53  20  ~/.bashrc
-|4,51,53,20,1590727785,"~/.bashrc"
-'4  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,52,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
-'5  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,53,15,10,1590727668,"~/temp/sbp/themes/colors/default-256.bash"
-'6  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,54,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
+'0  106  4  ~/.config/qtile/config.py
+|4,48,106,4,1590785156,"~/.config/qtile/config.py"
+'1  1  0  ~/.bashrc
+|4,49,1,0,1590785130,"~/.bashrc"
+'2  1  0  ~/.Xresources
+|4,50,1,0,1590774518,"~/.Xresources"
+'3  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,51,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+'4  1  0  ~/default-256.bash
+|4,52,1,0,1590727815,"~/default-256.bash"
+'5  53  20  ~/.bashrc
+|4,53,53,20,1590727785,"~/.bashrc"
+'6  53  20  ~/.bashrc
+|4,54,53,20,1590727785,"~/.bashrc"
 '7  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,55,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
-'8  15  11  ~/temp/sbp/themes/colors/default-256.bash
-|4,56,15,11,1590727611,"~/temp/sbp/themes/colors/default-256.bash"
-'9  15  11  ~/temp/sbp/themes/colors/default-256.bash
-|4,57,15,11,1590727611,"~/temp/sbp/themes/colors/default-256.bash"
+|4,55,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
+'8  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,56,15,10,1590727668,"~/temp/sbp/themes/colors/default-256.bash"
+'9  15  10  ~/temp/sbp/themes/colors/default-256.bash
+|4,57,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
 
 # Jumplist (newest first):
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1590774518,"~/.Xresources"
 -'  1  0  ~/.Xresources
 |4,39,1,0,1590774518,"~/.Xresources"
 -'  1  0  ~/.Xresources
@@ -256,6 +292,62 @@ $""
 |4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
 -'  1  0  ~/Documents/bullet-sanctum/.Xresources
 |4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
+-'  1  0  ~/Documents/bullet-sanctum/.Xresources
+|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
 -'  1  0  ~/default-256.bash
 |4,39,1,0,1590727815,"~/default-256.bash"
 -'  1  0  ~/default-256.bash
@@ -272,178 +364,211 @@ $""
 |4,39,1,0,1590727815,"~/default-256.bash"
 -'  1  0  ~/default-256.bash
 |4,39,1,0,1590727815,"~/default-256.bash"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  53  20  ~/.bashrc
-|4,39,53,20,1590727785,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1590727768,"~/.bashrc"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
--'  1  0  ~/temp/sbp/themes/colors/default-256.bash
-|4,39,1,0,1590727709,"~/temp/sbp/themes/colors/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/default-256.bash
+|4,39,1,0,1590727815,"~/default-256.bash"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/qtile/config.py
+	*	1590785156	0
+	"	106	4
+	^	106	23
+	.	106	0
+	+	50	41
+	+	94	24
+	+	81	5
+	+	75	4
+	+	37	20
+	+	58	60
+	+	37	20
+	+	37	15
+	+	37	44
+	+	115	38
+	+	128	4
+	+	124	17
+	+	75	28
+	+	115	32
+	+	115	54
+	+	116	28
+	+	126	8
+	+	128	0
+	+	127	31
+	+	53	41
+	+	54	5
+	+	55	5
+	+	55	74
+	+	58	4
+	+	57	0
+	+	50	4
+	+	61	33
+	+	58	29
+	+	57	4
+	+	57	0
+	+	58	4
+	+	58	0
+	+	54	4
+	+	37	29
+	+	37	37
+	+	38	38
+	+	163	41
+	+	135	63
+	+	37	39
+	+	37	0
+	+	37	37
+	+	118	0
+	+	75	0
+	+	80	0
+	+	75	0
+	+	80	4
+	+	86	0
+	+	80	0
+	+	182	26
+	+	31	16
+	+	29	45
+	+	179	23
+	+	39	43
+	+	39	47
+	+	39	0
+	+	39	16
+	+	152	0
+	+	39	40
+	+	42	0
+	+	41	47
+	+	39	44
+	+	39	0
+	+	41	21
+	+	39	39
+	+	40	21
+	+	37	0
+	+	37	4
+	+	37	0
+	+	38	0
+	+	37	161
+	+	37	50
+	+	50	4
+	+	50	0
+	+	37	0
+	+	72	47
+	+	90	9
+	+	93	8
+	+	56	0
+	+	37	42
+	+	37	0
+	+	79	67
+	+	152	19
+	+	112	34
+	+	106	0
+
+> ~/.bashrc
+	*	1590785130	0
+	"	1	0
+	^	1	0
+	.	53	20
+	+	18	26
+	+	20	11
+	+	22	0
+	+	14	31
+	+	41	0
+	+	38	26
+	+	40	5
+	+	39	14
+	+	17	67
+	+	11	0
+	+	8	1
+	+	9	0
+	+	11	0
+	+	10	0
+	+	8	1
+	+	9	34
+	+	8	22
+	+	16	0
+	+	51	0
+	+	50	11
+	+	53	20
+
+> ~/NERD_tree_1
+	*	1590781893	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/.Xresources
 	*	1590774517	0
@@ -470,33 +595,6 @@ $""
 > ~/default-256.bash
 	*	1590727815	0
 	"	1	0
-
-> ~/.bashrc
-	*	1590727785	0
-	"	53	20
-	^	53	21
-	.	53	20
-	+	18	26
-	+	20	11
-	+	22	0
-	+	14	31
-	+	41	0
-	+	38	26
-	+	40	5
-	+	39	14
-	+	17	67
-	+	11	0
-	+	8	1
-	+	9	0
-	+	11	0
-	+	10	0
-	+	8	1
-	+	9	34
-	+	8	22
-	+	16	0
-	+	51	0
-	+	50	11
-	+	53	20
 
 > ~/temp/sbp/themes/colors/default-256.bash
 	*	1590727713	0
@@ -712,12 +810,6 @@ $""
 	*	1590516743	0
 	"	22	69
 
-> ~/NERD_tree_1
-	*	1590516332	0
-	"	11	14
-	.	1	0
-	+	1	0
-
 > ~/NERD_tree_2
 	*	1590516221	0
 	"	4	0
@@ -727,94 +819,6 @@ $""
 > /tmp/vJgWwGS/8
 	*	1590516171	0
 	"	49	0
-
-> ~/.config/qtile/config.py
-	*	1590461818	0
-	"	162	0
-	^	152	20
-	.	152	19
-	+	50	41
-	+	94	24
-	+	81	5
-	+	75	4
-	+	37	20
-	+	58	60
-	+	37	20
-	+	37	15
-	+	37	44
-	+	115	38
-	+	128	4
-	+	124	17
-	+	75	28
-	+	115	32
-	+	115	54
-	+	116	28
-	+	126	8
-	+	128	0
-	+	127	31
-	+	53	41
-	+	54	5
-	+	55	5
-	+	55	74
-	+	58	4
-	+	57	0
-	+	50	4
-	+	61	33
-	+	58	29
-	+	57	4
-	+	57	0
-	+	58	4
-	+	58	0
-	+	54	4
-	+	37	29
-	+	37	37
-	+	38	38
-	+	163	41
-	+	135	63
-	+	37	39
-	+	37	0
-	+	37	37
-	+	118	0
-	+	75	0
-	+	80	0
-	+	75	0
-	+	80	4
-	+	86	0
-	+	80	0
-	+	182	26
-	+	31	16
-	+	29	45
-	+	179	23
-	+	39	43
-	+	39	47
-	+	39	0
-	+	39	16
-	+	152	0
-	+	39	40
-	+	42	0
-	+	41	47
-	+	39	44
-	+	39	0
-	+	41	21
-	+	39	39
-	+	40	21
-	+	37	0
-	+	37	4
-	+	37	0
-	+	38	0
-	+	37	161
-	+	37	50
-	+	50	4
-	+	50	0
-	+	37	0
-	+	72	47
-	+	90	9
-	+	93	8
-	+	56	0
-	+	37	42
-	+	37	0
-	+	79	67
-	+	152	19
 
 > ~/.config/gtk-3.0/settings.ini
 	*	1590458465	0
