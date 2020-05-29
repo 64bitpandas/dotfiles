@@ -251,9 +251,61 @@ screens = [
    Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
-                widget.WindowName()
+                widget.Sep(
+                    linewidth=0,
+                    padding=6,
+                    background=colors[0]
+                ),
+                widget.GroupBox(
+                    active=colors[1],
+                    inactive=colors[4],
+                    rounded=False,
+                    margin_x=0,
+                    padding=5,
+                    border_width=1,
+                    highlight_method="block",
+                    this_current_screen_border=colors[3],
+                    this_screen_border=colors[6],
+                    other_current_screen_border=colors[2],
+                    other_screen_border=colors[5],
+                    background=colors[0]
+                ),
+                widget.Sep(
+                    linewidth=0,
+                    padding=6,
+                    background=colors[0]
+                ),
+                widget.WindowName(
+                    background=colors[0]
+                ),
+                widget.Prompt(
+                    background=colors[0]
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[2],
+                    background=colors[0],
+                ),
+                widget.CurrentLayout(
+                    background=colors[2],
+                    margin=0
+                ),
+                widget.TextBox(
+                    **pl_arrows,
+                    text="◀",
+                    foreground=colors[4],
+                    background=colors[2],
+                ),
+                widget.Clock(
+                    format='%Y-%m-%d %a %I:%M %p',
+                    foreground='000000',
+                    background=colors[4]),
+                widget.Sep(
+                    linewidth=0,
+                    padding=6,
+                    background=colors[4]
+                ),
             ], 24
         ),
         wallpaper='~/wallpapers/summer_sky_rough.png',

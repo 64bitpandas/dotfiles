@@ -20,12 +20,12 @@
 $""
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1590785156,,"wq"
 :q
-|2,0,1590785130,,"q"
+|2,0,1590794055,,"q"
 :q!
-|2,0,1590781920,,"q!"
+|2,0,1590791348,,"q!"
+:wq
+|2,0,1590791329,,"wq"
 :w
 |2,0,1590727189,,"w"
 :cd ..
@@ -222,234 +222,234 @@ $""
 |3,0,36,0,1,0,1590282599,"t"
 
 # File marks:
-'0  106  4  ~/.config/qtile/config.py
-|4,48,106,4,1590785156,"~/.config/qtile/config.py"
-'1  1  0  ~/.bashrc
-|4,49,1,0,1590785130,"~/.bashrc"
-'2  1  0  ~/.Xresources
-|4,50,1,0,1590774518,"~/.Xresources"
-'3  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,51,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
-'4  1  0  ~/default-256.bash
-|4,52,1,0,1590727815,"~/default-256.bash"
-'5  53  20  ~/.bashrc
-|4,53,53,20,1590727785,"~/.bashrc"
-'6  53  20  ~/.bashrc
-|4,54,53,20,1590727785,"~/.bashrc"
-'7  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,55,15,10,1590727714,"~/temp/sbp/themes/colors/default-256.bash"
-'8  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,56,15,10,1590727668,"~/temp/sbp/themes/colors/default-256.bash"
-'9  15  10  ~/temp/sbp/themes/colors/default-256.bash
-|4,57,15,10,1590727654,"~/temp/sbp/themes/colors/default-256.bash"
+'0  157  0  ~/.config/qtile/config.py
+|4,48,157,0,1590794088,"~/.config/qtile/config.py"
+'1  1  0  ~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config
+|4,49,1,0,1590794055,"~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config"
+'2  1  0  /etc/barrier.conf
+|4,50,1,0,1590791348,"/etc/barrier.conf"
+'3  2  0  /etc/barrier.conf
+|4,51,2,0,1590791330,"/etc/barrier.conf"
+'4  2  0  /etc/barrier.conf
+|4,52,2,0,1590791330,"/etc/barrier.conf"
+'5  1  0  /etc/barrier.conf
+|4,53,1,0,1590791317,"/etc/barrier.conf"
+'6  1  0  /etc/barrier.conf
+|4,54,1,0,1590791317,"/etc/barrier.conf"
+'7  1  0  /etc/barrier.conf
+|4,55,1,0,1590791317,"/etc/barrier.conf"
+'8  106  4  ~/.config/qtile/config.py
+|4,56,106,4,1590785156,"~/.config/qtile/config.py"
+'9  106  4  ~/.config/qtile/config.py
+|4,57,106,4,1590785156,"~/.config/qtile/config.py"
 
 # Jumplist (newest first):
+-'  157  0  ~/.config/qtile/config.py
+|4,39,157,0,1590794088,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590794058,"~/.config/qtile/config.py"
+-'  1  0  ~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config
+|4,39,1,0,1590794055,"~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config"
+-'  1  0  ~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config
+|4,39,1,0,1590794055,"~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791348,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791348,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791348,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791348,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  2  0  /etc/barrier.conf
+|4,39,2,0,1590791330,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791327,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791327,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791327,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791327,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791317,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791317,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791317,"/etc/barrier.conf"
+-'  1  0  /etc/barrier.conf
+|4,39,1,0,1590791317,"/etc/barrier.conf"
 -'  106  4  ~/.config/qtile/config.py
 |4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  106  4  ~/.config/qtile/config.py
+|4,39,106,4,1590785156,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1590785133,"~/.config/qtile/config.py"
 -'  1  0  ~/.config/qtile/config.py
 |4,39,1,0,1590785133,"~/.config/qtile/config.py"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1590785130,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1590785130,"~/.bashrc"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/.Xresources
-|4,39,1,0,1590774518,"~/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/Documents/bullet-sanctum/.Xresources
-|4,39,1,0,1590774483,"~/Documents/bullet-sanctum/.Xresources"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
--'  1  0  ~/default-256.bash
-|4,39,1,0,1590727815,"~/default-256.bash"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1590785130,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/qtile/config.py
-	*	1590785156	0
-	"	106	4
+	*	1590794088	0
+	"	157	0
 	^	106	23
 	.	106	0
 	+	50	41
@@ -536,6 +536,17 @@ $""
 	+	152	19
 	+	112	34
 	+	106	0
+
+> ~/odrive/Google Drive/College Courses/2020 Summer/MCB W61/qtile-config
+	*	1590794054	0
+	"	1	0
+
+> /etc/barrier.conf
+	*	1590791346	0
+	"	1	0
+	^	2	0
+	.	1	2
+	+	1	2
 
 > ~/.bashrc
 	*	1590785130	0
