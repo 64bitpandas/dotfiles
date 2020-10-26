@@ -1,7 +1,6 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
-; (gtk_accel_path "<Actions>/ThunarBookmarks/6a2f3eceb11c3e0f0bcb3be582f791f5" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open-in-new-tab" "<Primary><Shift>p")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in" "<Primary>plus")
@@ -9,6 +8,7 @@
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open" "<Primary>o")
 ; (gtk_accel_path "<Actions>/ThunarWindow/empty-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in-alt" "<Primary>equal")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/38617386af9ed2dc30f8484b3edce5ac" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-ascending" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-network" "")
@@ -51,11 +51,13 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-window" "<Primary>q")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/cut" "<Primary>x")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-previous-tab" "<Primary>Page_Up")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/7ae9356fb2ce3dee64b458589fc95321" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-all-windows" "<Primary><Shift>w")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-statusbar" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/copy" "<Primary>c")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/c28623fce14fd78ca4dcb10f6feb49d1" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/dcfb4534c79819593174247e2e0f9cef" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-desktop" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/paste-into-folder" "")
@@ -68,6 +70,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-as-icons" "<Primary>1")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/forward" "<Alt>Right")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/restore" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/1d0809ee2b1ae89364e637873a99bfc4" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/file-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/make-link" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-descending" "")

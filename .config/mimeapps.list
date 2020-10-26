@@ -1,12 +1,25 @@
 [Added Associations]
-text/css=code-oss.desktop;vim.desktop;
-text/plain=code-oss.desktop;vim.desktop;unityhub.desktop;
+application/pdf=brave-browser.desktop;org.gnome.Evince.desktop;
+application/x-ipynb+json=userapp-"nbopen"-2ZS3O0.desktop;userapp-"nbopen"-ESZFP0.desktop;userapp-"nbopen %f"-Z2JLP0.desktop;userapp-"nbopen %f"-3RF3O0.desktop;userapp-"nbopen"-M57MM0.desktop;userapp-"jupyter notebook"-T1LYM0.desktop;userapp-"nbopen %f"-342FP0.desktop;
+application/x-xar=xarchiver.desktop;
+application/x-xpinstall=xarchiver.desktop;
+image/gif=gimp.desktop;
+image/jpeg=gimp.desktop;
 image/png=gimp.desktop;
-application/pdf=org.gnome.Evince.desktop;
+inode/directory=thunar.desktop;visual-studio-code-insiders.desktop;
+text/css=code-oss.desktop;vim.desktop;
+text/csv=visual-studio-code-insiders.desktop;
+text/html=brave-browser.desktop;visual-studio-code-insiders.desktop;code-oss.desktop;rstudio.desktop;vim.desktop;unityhub.desktop;code.desktop;
+text/plain=visual-studio-code-insiders.desktop;code-oss.desktop;vim.desktop;unityhub.desktop;
+text/x-csrc=visual-studio-code-insiders.desktop;
+video/mp4=vlc.desktop;
 
 [Default Applications]
-text/html=firefox.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+application/x-ipynb+json=userapp-"nbopen %f"-342FP0.desktop
+inode/directory=thunar.desktop;
+text/html=brave-browser.desktop;
 x-scheme-handler/about=firefox.desktop
+x-scheme-handler/http=brave-browser.desktop;
+x-scheme-handler/https=brave-browser.desktop;
+x-scheme-handler/slack=slack.desktop
 x-scheme-handler/unknown=firefox.desktop
