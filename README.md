@@ -1,34 +1,21 @@
-# 64bitpanda's dotfiles: SummerSky
+# 64bitpanda's dotfiles: SummerSkyRedux
 
-Summer 2020 Qtile rice. Work in progress!
+This is a graphical overhaul of the [SummerSky](https://github.com/64bitpandas/dotfiles/tree/summersky) configurations. The major difference is the DE: I've switched to KDE Plasma from QTile.
 
 <!-- REMEMBER TO EDIT THIS!!! -->
 ![Screenshot](wallpapers/demo.png)
 
  - **OS:** Arch Linux
- - **DE:** [Qtile](http://www.qtile.org/)
+ - **DE:** [KDE Plasma](https://kde.org/plasma-desktop/)
  - **GTK Theme:** [Fantome](https://github.com/addy-dclxv/gtk-theme-collections)
  - **Greeter:** [Aether](https://github.com/NoiSek/Aether)
  - **Compositor:** [Compton with Tryone's Kawase Blur Patch](https://github.com/tryone144/compton)
- - **Bar:** Polybar (coming soon)
- - **Wallpaper:** [Drawn by myself :D](https://bencuan.me)
 
 ## Recommended Base
 Follow the steps in the [Arch Linux installation guide](https://wiki.archlinux.org/index.php/installation_guide) to make sure the pre-install is good to go!
 
 ## Keyboard Shortcuts
 I have Super mapped to the Windows key on my keyboard.
-
- |  **Desktops and Windows**   	|                    	|
-|-------------------------	|--------------------	|
-| Super+J/K |  Cycle window focus	|
-| Super+Ctrl+J/K  |  Move window left/right	|
-| Super+Tab   |  Cycle window layout	|
-| Super+W   |  Close window	|
-| Super+I/M | Increase/Decrease window size
-| Super+1/2/3/4/5 | Switch to desktop
-| Super+Shift+1/2/3/4/5 | Send window to desktop |
-
 
 | **Applications**           	|                    	|
 |-------------------------	|--------------------	|
@@ -38,6 +25,7 @@ I have Super mapped to the Windows key on my keyboard.
 | Super+G             	|  Firefox       	|
 | Super+C             	|  vscode (code)      	|
 | Super+Space           	|  dmenu    	|
+| Super+X           	|  play/pause spotify   	|
 
 
 | **Power Management**        	|                    	|
@@ -52,30 +40,17 @@ Here's an inexhaustive list of my modifications:
 ### Compton
 My config file is at `.config/compton.conf`. The main change I made is to set custom window opacities based on the window name. If you would like to add more blurry windows, use `xprop` to discover the window name or class and add it to the `opacity-rule` list.
 
-### Qtile
-**Layouts:** I've enabled three layouts, but you can easily change this in `.config/qtile/config.py`. Press Super-Tab to switch between layouts.
- - **Max:** Standard fullscreen layout where only one window will show at a time. Press Super+J/K to cycle windows.
- - **MonadTall:** One large window on the left half of the screen; all the other windows are equally sized on the right half.
- - **MonadTall:** One large window on the top half of the screen; all the other windows are equally sized on the bottom half.
-
-**Autostart:** Scripts that run on startup are found in `.config/qtile/autostart.sh`.
-
-**Windows:** I've switched away from the default asdfuiop scheme in favor of number keys (12345). Press Super-(number) to switch to that desktop, or Super-Shift-(number) to send the current tab to that desktop.
-
 ### Bash
-On startup, bash runs `pfetch` and refreshes the wal color scheme. Pressing the up arrow will use history completion rather than the default behavior. The font I use is IBM Plex Mono. (TODO)
+On startup, bash runs `pfetch` and refreshes the wal color scheme. Pressing the up arrow will use history completion rather than the default behavior. The font I use is IBM Plex Mono.
 
 ### Vim
-My vimrc is a modified version of [Ultimate Vimrc](https://github.com/amix/vimrc). (TODO)
-
-### Firefox
-For Firefox, I use [this CSS mod](https://github.com/datguypiko/Firefox-Mod) along with [Humble new tab page](https://addons.mozilla.org/en-US/firefox/addon/humble-new-tab/) and [this tab page theme](https://github.com/akshat46/FlyingFox).
+My vimrc is a modified version of [Ultimate Vimrc](https://github.com/amix/vimrc).
 
 ### Spotify
 My Spotify config uses [Spicetify](https://github.com/khanhas/spicetify-cli) for custom theming. For colors, I use wal-defined system colors, and for custom CSS I use a modified version of [Gradianto](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Gradianto).
 
 ### Aether
-To be added later!
+I use [this wallpaper](wallpapers/lightdm-wallpaper.jpg) with the LightDM Aether theme.
 
 
 ## Installation Guide
@@ -83,18 +58,12 @@ To be added later!
 ### Part 1. Base Install
  1. Download Arch Linux [here](https://www.archlinux.org/download/).
  2. Use a disk imaging tool (like Rufus) to create a live USB. MAKE SURE IT IS ON DD MODE!!!!! (or use the `dd` command)
+ 3. Get KDE Plasma: `sudo pacman -S plasma-desktop`
 
 ### Part 2. Getting the Essentials
  1. Get yay: `git clone https://aur.archlinux.org/yay.git`, then `cd yay` then  `makepkg -si`
  2. Update packages: `yay -Syyu`
  3. If necessary, customize grub order using `grub-customizer` and set EFI boot order using `efibootmgr` and `efibootmgr -o #1,#2,#3......` (If this doesn't work, the BIOS might be overriding it. Check the settings there)
-
-### Part 7. Installing the config files
- 1. Clone the repository. `git clone https://github.com/64bitpandas/dotfiles`
- 1. Run `cd dotfiles` then `git checkout summersky`.
- 1. Move the files into your `$HOME` directory.
- 1. Set the themes using `lxappearance` (Fantome with Papirus icons).
- 1. Enjoy the beautiful desktop :D
 
 ### Part 3. Basic Ricing/Desktop Necessities
  1. Grab opensnap for snappy windows
@@ -124,6 +93,13 @@ To be added later!
  3. Run `nitrogen` and set the wallpaper to the same one from the `wal` command
  4. Get [vscode-wal](https://github.com/Bluedrack28/vscode-wal) and follow the instructions for vscode color schemes
 
+
+### Part 7. Installing the config files
+ 1. Clone the repository. `git clone https://github.com/64bitpandas/dotfiles`
+ 1. Run `cd dotfiles` then `git checkout summersky`.
+ 1. Move the files into your `$HOME` directory.
+ 1. Set the themes using `lxappearance` (Fantome with Papirus icons).
+ 1. Enjoy the beautiful desktop :D
 
 
 ### Part 8: Multilanguage Support
