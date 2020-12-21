@@ -7,15 +7,16 @@ Over the years, I've been continuously tweaking my main Linux installation. This
 **My current preferences**
  - Distro: Arch Linux
  - Desktop Environment: KDE, XFCE, Openbox
- - Terminal: urxvt
+ - Terminal: kitty
  - Editor: vim, vscode
 
 ## About
 Please navigate to a different branch to view specific instructions on how to install the dotfiles!
 
-### Active Development: [SummerSkyRedux](../../tree/summersky-redux)
+### Active Development: [Colorfull](../../tree/colorfull)
 
 #### Branch List
+ - [Colorfull](../../tree/colorfull): A boxy pastel-colored Openbox rice
  - [SummerSkyRedux](../../tree/summersky-redux): A graphical overhaul of the SummerSky config, with a new color scheme
  - [SummerSky](../../tree/summersky): Vanilla Arch Qtile rice
  - [Manjaro-Summer](../../tree/manjaro-summer): A Manjaro Openbox rice with custom wallpaper
