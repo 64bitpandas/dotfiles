@@ -1,19 +1,27 @@
 ![dotfiles](dotfiles.png)
 
-# 64BitPandas' Linux Dotfiles
+# Ben's Linux Dotfiles
 
-Over the years, I've been continuously tweaking my main Linux installation. This repository is an archive of every custom install I've done in the past ~3 years, and should contain enough information to replicate any of them.
+###### Preface updated 01/2024
 
-**My current preferences**
+From 2018-2022, I used Linux as a primary OS. This repository is an archive of every custom install I've done durin that time, and should contain enough information to replicate any of them.
+
+These days, I care a lot less about my desktop setup since I SSH into my [home server](https://devlog.bencuan.me) instead of developing locally.
+
+I still think Linux customization is a lot of fun, and encourage you to try it out if you have an old laptop and a day off! There's something magical about transforming a generic text-only interface into your own unique creation with just a few commands.
+
+## Latest
+
+![colorful demo](demo.png)
+
+**[Colorfull (2020)](../../tree/colorfull)**
  - Distro: Arch Linux
- - Desktop Environment: KDE, XFCE, Openbox
+ - Desktop Environment: Openbox
  - Terminal: kitty
  - Editor: vim, vscode
 
-## About
+## History
 Please navigate to a different branch to view specific instructions on how to install the dotfiles!
-
-### Active Development: [Colorfull](../../tree/colorfull)
 
 #### Branch List
  - [Colorfull](../../tree/colorfull): A boxy pastel-colored Openbox rice
